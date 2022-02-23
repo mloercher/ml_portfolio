@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './components/About';
 // import components below 
 import Nav from './components/Nav';
 
@@ -8,7 +9,7 @@ function App() {
     <div>
       <Nav />
       <main>
-          {/* <About />         */}
+        <About />
       </main>
     </div>
   );
