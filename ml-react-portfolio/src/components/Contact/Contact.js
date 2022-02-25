@@ -67,6 +67,18 @@ function Contact() {
             rows="5"
           />{" "}
         </div>
+        {/* BELOW CODE IS SAME AS:
+        if(errorMessage) {
+            <div>
+             <p className="error-text">{errorMessage}</p>
+             </div>
+        }
+     */}
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
         <button type="submit">Submit</button>
       </form>
     </section>
