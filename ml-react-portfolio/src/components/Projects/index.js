@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import projectImage from '../../assets/cover-image.jpg';
 
 // add an array of objects containing project names and descriptions 

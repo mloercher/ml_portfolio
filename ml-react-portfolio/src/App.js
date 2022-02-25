@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from "react";
 import About from './components/About';
 // import components below 
 import Nav from './components/Nav';
-import Projects from './components/Projects/index'
+import Projects from './components/Projects'
+import Contact from "./components/Contact/Contact";
 
 function App() {
+
 
   return (
     <div>
@@ -12,6 +14,7 @@ function App() {
       <main>
         <About />
         <Projects />
+        <Contact />
       </main>
     </div>
   );
