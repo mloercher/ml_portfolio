@@ -6,7 +6,7 @@ function Nav(props) {
     <header className="flex-row px-1">
       <nav>
         <h2>
-          <a href="/">ML web design {props.anotherProp}</a>
+          <Link to="/">ML web design {props.anotherProp}</Link>
         </h2>
         <ul className="flex-row">
           <li className="mx-2">
