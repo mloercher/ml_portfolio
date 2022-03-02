@@ -38,6 +38,18 @@ ul {
   font-size: large;
 }
 
+nav a.active {
+  color: aqua;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a.inactive {
+  text-decoration: none;
+  font-size: 16px;
+  color: whitesmoke;
+}
+
 
 
 /* main {
