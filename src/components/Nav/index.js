@@ -1,5 +1,5 @@
 import React from "react";
-// import { capitalizeFirstLetter } from "../../utils/helpers";
+import { Link } from "react-router-dom";
 
 function Nav(props) {
   return (
@@ -10,34 +10,34 @@ function Nav(props) {
         </h2>
         <ul className="flex-row">
           <li className="mx-2">
-            <a
-              href="#about"
-              onClick={() => {
-                props.setter("About");
-              }}
+            <Link
+              to="/about"
+              // onClick={() => {
+              //   props.setter("About");
+              // }}
             >
               About me
-            </a>
+            </Link>
           </li>
           <li className="mx-2">
-            <a
-              href="#projects"
-              onClick={() => {
-                props.setter("Projects");
-              }}
+            <Link
+              to="/projects"
+              // onClick={() => {
+              //   props.setter("Projects");
+              // }}
             >
               Projects
-            </a>
+            </Link>
           </li>
           <li className="mx-2">
-            <a
-              href="#contact"
-              onClick={() => {
-                props.setter("Contact");
-              }}
+            <Link
+              to="/contact"
+              // onClick={() => {
+              //   props.setter("Contact");
+              // }}
             >
               Contact
-            </a>
+            </Link>
           </li>
           {/* {
             categories.map((category) => (

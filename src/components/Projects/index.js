@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import projectImage from "../../assets/cover-image.jpg";
 
 // add an array of objects containing project names and descriptions
@@ -15,7 +15,7 @@ function Projects() {
         <li
           data-target="#carouselExampleIndicators"
           data-slide-to="0"
-          class="active"
+          className="active"
         ></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -23,18 +23,24 @@ function Projects() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img className="d-block w-100" src={projectImage} alt="First slide" />
-        </div>
-        <div className="carousel-item">
-          <img className="d-block w-100" src={projectImage} alt="Second slide" />
-          <div className="carousel-caption d-none d-md-block">
             <h5>Proj 1</h5>
             <p>This is the description of the proj</p>
+        </div>
+        <div className="carousel-item">
+          <img
+            className="d-block w-100"
+            src={projectImage}
+            alt="Second slide"
+          />
+          <div className="carousel-caption d-none d-md-block">
+              <h5>Proj 1</h5>
+              <p>This is the description of the proj</p>
           </div>
         </div>
         <div className="carousel-item">
           <img className="d-block w-100" src={projectImage} alt="Third slide" />
           <div className="carousel-caption d-none d-md-block">
-            <h5>Proj 1</h5>
+            <h5>Proj 2</h5>
             <p>This is the description of the proj</p>
           </div>
         </div>
