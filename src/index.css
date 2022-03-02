@@ -26,6 +26,18 @@ ul {
 }
 
 
+.mx-2 {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  
+}
+
+.selected {
+  text-decoration: none;
+  font-size: large;
+}
+
 
 
 /* main {

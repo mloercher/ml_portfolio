@@ -16,6 +16,7 @@ function App() {
       <div className="App">
         <Nav />
         <div >
+          {/* Routes = Switch in react router v6 */}
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/about" element={<About />} />
