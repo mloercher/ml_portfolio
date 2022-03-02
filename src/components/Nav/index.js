@@ -39,12 +39,6 @@ function Nav(props) {
               Contact
             </NavLink>
           </li>
-          {/* {
-            categories.map((category) => (
-              <li className="mx-1" key={category.name}>
-              </li>
-            ))
-          } */}
         </ul>
       </nav>
     </header>

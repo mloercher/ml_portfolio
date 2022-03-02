@@ -16,6 +16,7 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: black;
+  font-family: 'Zen Kurenaido', sans-serif;
 }
 
 ul {
