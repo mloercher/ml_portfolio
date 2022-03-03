@@ -3,15 +3,14 @@ import { NavLink, Link } from "react-router-dom";
 
 function Nav(props) {
   return (
-    <header className="flex-row px-1">
-      <nav>
+      <nav className="flex-row px-1">
         <h2>
           <Link
             to="/"
             style={{ textDecoration: "none", color: "white" }}
             className={(navData) => (navData.isActive ? "active" : "")}
           >
-            ML web design {props.anotherProp}
+            ML web design 
           </Link>
         </h2>
         <ul className="flex-row">
@@ -20,7 +19,7 @@ function Nav(props) {
               to="/about"
               className={({ isActive }) => (isActive ? "active" : "inactive")}
             >
-              About me
+              about
             </NavLink>
           </li>
           <li className="mx-2">
@@ -28,7 +27,7 @@ function Nav(props) {
               to="/projects"
               className={({ isActive }) => (isActive ? "active" : "inactive")}
             >
-              Projects
+              projects
             </NavLink>
           </li>
           <li className="mx-2">
@@ -36,12 +35,11 @@ function Nav(props) {
               to="/contact"
               className={({ isActive }) => (isActive ? "active" : "inactive")}
             >
-              Contact
+              contact
             </NavLink>
           </li>
         </ul>
       </nav>
-    </header>
   );
 }
 

@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useState} from "react";
 // React Router imports below---in V6, Switch is replaced by Routes
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import components below
@@ -9,8 +9,10 @@ import Contact from "./components/Contact/Contact";
 import Home from "./components/Home";
 
 function App() {
+  // const [pageRendered, setPageRendered] = useState("/");
+  
   // RETURNS---------------------------------------
-  //
+  
   return (
     <Router>
       <div className="App">
@@ -33,7 +35,6 @@ export default App;
 
 // declaring the name of the state (pageRendered) and name of setter func
 // setting default state to About
-// const [pageRendered, setPageRendered] = useState("About");
 
 // original return for prop conditional rendering
 
