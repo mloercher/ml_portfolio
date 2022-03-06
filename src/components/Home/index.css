@@ -1,18 +1,19 @@
-* {
-  
-}
 
 @font-face {
   font-family: myFirstFont;
   src: url("../../assets/fonts/TS-Block-Bold.ttf");
 }
 
+h1{
+  display: flex;
+  flex-wrap: wrap;
+}
 .container h1 {
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
   font-family: myFirstFont;
-  font-size: 42px;
+  font-size: 45px;
   border: solid #EEF4D4;
   border-style: dashed;
   border-width: 10px;

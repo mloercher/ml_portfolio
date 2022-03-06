@@ -1,11 +1,9 @@
-#contactWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .contact-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+section{
+  display: flex;
+  justify-content: center;
+}
+
+#contact-form{
+  display: flex;
+  justify-content: center;
+}

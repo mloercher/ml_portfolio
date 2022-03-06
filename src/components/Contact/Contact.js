@@ -37,7 +37,7 @@ function Contact() {
   }
   console.log(formState);
   return (
-    <section id="contactWrapper">
+    <section>
       {/* <h1>Contact me</h1> */}
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>

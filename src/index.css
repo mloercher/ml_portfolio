@@ -11,7 +11,6 @@ body {
 * {
   margin: 0%;
   font-family: 'Zen Kurenaido', sans-serif;
-  
 }
 
 .App {
@@ -22,24 +21,8 @@ body {
 
 
 
-.mx-2 {
-  color: white;
-  text-decoration: none;
-  font-size: large;
-  
-}
 
 
-p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-#row2{
-  margin-top: 10%;
-}
 
 /* .App{
   background-color: #A59132;

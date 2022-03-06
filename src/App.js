@@ -9,7 +9,7 @@ import Contact from "./components/Contact/Contact";
 import Home from "./components/Home";
 
 function App() {
-  // const [pageRendered, setPageRendered] = useState("Home");
+
   const [backgroundColor, setBackgroundColor] = useState("#DAEFB3");
   const [navColor, setNavColor] = useState("#DAEFB3");
 

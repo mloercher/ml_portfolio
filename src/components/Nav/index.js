@@ -16,6 +16,11 @@ function Nav(props) {
         >
           home
         </Link>
+        <a href="/" className="toggle-button">
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </a>
       </h2>
       <ul className="flex-row" id="navItems">
         <li className="mx-2">
