@@ -14,7 +14,7 @@ nav {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background-color: #DAEFB3;
+    /* background-color: #DAEFB3; */
     font-family: 'Zen Kurenaido', sans-serif;
   }
   

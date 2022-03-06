@@ -11,19 +11,26 @@ import Home from "./components/Home";
 function App() {
   // const [pageRendered, setPageRendered] = useState("Home");
   const [backgroundColor, setBackgroundColor] = useState("#DAEFB3");
-  
+  const [navColor, setNavColor] = useState("#DAEFB3");
 
-  function renderApp () {
+  function renderApp() {
     // if(pageRendered == "Home") {
 
     // }
 
     return (
-      <div className="App" style={{
-        backgroundColor: backgroundColor,
-        height: "100vh"
-      }}>
-        <Nav setBackgroundColor={setBackgroundColor} />
+      <div
+        className="App"
+        style={{
+          backgroundColor: backgroundColor,
+          navColor: navColor,
+          height: "100vh",
+        }}
+      >
+        <Nav
+          setBackgroundColor={setBackgroundColor}
+          setNavColor={setNavColor}
+        />
         {/* Routes = Switch in react router v6 */}
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -32,16 +39,12 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </div>
-    )
+    );
   }
 
   // RETURNS---------------------------------------
 
-  return (
-    <Router>
-      {renderApp()}
-    </Router>
-  );
+  return <Router>{renderApp()}</Router>;
 }
 
 export default App;

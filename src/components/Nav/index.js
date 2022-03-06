@@ -36,7 +36,8 @@ function Nav(props) {
             style={{ textDecoration: "none" }}
             className={({ isActive }) => (isActive ? "active" : "inactive")}
             onClick={() => {
-              props.setBackgroundColor("red");
+              props.setBackgroundColor("#EEF4D4");
+              props.setNavColor("#EEF4D4");
             }}
           >
             projects
@@ -48,7 +49,8 @@ function Nav(props) {
             style={{ textDecoration: "none" }}
             className={({ isActive }) => (isActive ? "active" : "inactive")}
             onClick={() => {
-              props.setBackgroundColor("blue");
+              props.setBackgroundColor("#C2D897");
+              props.setNavColor("#C2D897");
             }}
           >
             contact

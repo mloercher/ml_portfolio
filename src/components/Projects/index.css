@@ -6,6 +6,8 @@
   width: 100%;
   height: auto;
   transition: 0.7s;
+  border: solid black;
+  box-shadow: 20px;
 }
 
 #projImg:hover {
@@ -13,5 +15,5 @@
 }
 
 .row{
-  background-color: red;
+  background-color: #EEF4D4;
 }
