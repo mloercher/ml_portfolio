@@ -11,10 +11,10 @@ function Nav(props) {
           style={{ textDecoration: "none" }}
           className={(navData) => (navData.isActive ? "active" : "inactive")}
           onClick={() => {
-            props.setBackgroundColor("green");
+            props.setBackgroundColor("#DAEFB3");
           }}
         >
-          ML web design
+          home
         </Link>
       </h2>
       <ul className="flex-row" id="navItems">
@@ -24,7 +24,7 @@ function Nav(props) {
             style={{ textDecoration: "none" }}
             className={({ isActive }) => (isActive ? "active" : "inactive")}
             onClick={() => {
-              props.setBackgroundColor("green");
+              props.setBackgroundColor("#DAEFB3");
             }}
           >
             about
