@@ -10,7 +10,7 @@ import Home from "./components/Home";
 
 function App() {
   // const [pageRendered, setPageRendered] = useState("Home");
-  const [backgroundColor, setBackgroundColor] = useState("black");
+  const [backgroundColor, setBackgroundColor] = useState("green");
   
 
   function renderApp () {

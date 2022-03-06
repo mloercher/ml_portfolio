@@ -9,7 +9,10 @@ function Nav(props) {
         <Link
           to="/"
           style={{ textDecoration: "none" }}
-          className={(navData) => (navData.isActive ? "active" : "")}
+          className={(navData) => (navData.isActive ? "active" : "inactive")}
+          onClick={() => {
+            props.setBackgroundColor("green");
+          }}
         >
           ML web design
         </Link>
@@ -20,7 +23,9 @@ function Nav(props) {
             to="/about"
             style={{ textDecoration: "none" }}
             className={({ isActive }) => (isActive ? "active" : "inactive")}
-            onClick={() => {props.setBackgroundColor("green")}}
+            onClick={() => {
+              props.setBackgroundColor("green");
+            }}
           >
             about
           </NavLink>
@@ -30,7 +35,9 @@ function Nav(props) {
             to="/projects"
             style={{ textDecoration: "none" }}
             className={({ isActive }) => (isActive ? "active" : "inactive")}
-            onClick={() => {props.setBackgroundColor("red")}}
+            onClick={() => {
+              props.setBackgroundColor("red");
+            }}
           >
             projects
           </NavLink>
@@ -40,7 +47,9 @@ function Nav(props) {
             to="/contact"
             style={{ textDecoration: "none" }}
             className={({ isActive }) => (isActive ? "active" : "inactive")}
-            onClick={() => {props.setBackgroundColor("blue")}}
+            onClick={() => {
+              props.setBackgroundColor("blue");
+            }}
           >
             contact
           </NavLink>

@@ -3,7 +3,7 @@ import './index.css';
 
 function Home (props) {
     return(
-        <div>
+        <div className='container'>
             <h1>Mark Loercher</h1>
         </div>
     )
