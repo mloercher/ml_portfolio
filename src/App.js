@@ -1,4 +1,4 @@
-import {React, useState} from "react";
+import { React, useState } from "react";
 // React Router imports below---in V6, Switch is replaced by Routes
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import components below
@@ -9,24 +9,37 @@ import Contact from "./components/Contact/Contact";
 import Home from "./components/Home";
 
 function App() {
-  // const [pageRendered, setPageRendered] = useState("/");
+  // const [pageRendered, setPageRendered] = useState("Home");
+  const [backgroundColor, setBackgroundColor] = useState("black");
   
+
+  function renderApp () {
+    // if(pageRendered == "Home") {
+
+    // }
+
+    return (
+      <div className="App" style={{
+        backgroundColor: backgroundColor,
+        height: "100vh"
+      }}>
+        <Nav setBackgroundColor={setBackgroundColor} />
+        {/* Routes = Switch in react router v6 */}
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    )
+  }
+
   // RETURNS---------------------------------------
-  
+
   return (
     <Router>
-      <div className="App">
-        <Nav />
-        <div >
-          {/* Routes = Switch in react router v6 */}
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/about" element={<About />} />
-            <Route exact path="/projects" element={<Projects />} />
-            <Route exact path="/contact" element={<Contact />} />
-          </Routes>
-        </div>
-      </div>
+      {renderApp()}
     </Router>
   );
 }

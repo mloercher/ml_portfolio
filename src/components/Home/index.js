@@ -1,9 +1,10 @@
 import React from 'react'
+import './index.css';
 
-function Home () {
+function Home (props) {
     return(
         <div>
-            <h1>This is the Homepage!</h1>
+            <h1>Mark Loercher</h1>
         </div>
     )
 }

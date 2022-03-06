@@ -1,48 +1,49 @@
 import React from "react";
-import moodRngImg from "../../assets/MoodRng.png"
+import "./index.css";
+import moodRngImg from "../../assets/MoodRng.png";
 
 // add an array of objects containing project names and descriptions
 // add hook to utilize useState to display project titles and images accordingly.
 
-function Projects() {
+function Projects(props) {
   return (
-    <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-      <img id="projImg"src={moodRngImg} alt='moodrng screenshot'></img>
+    <div class="projContainer">
+      <div class="row" id="row1">
+        <div class="col-sm">
+          <p>MoodRng Wellness Tracker</p>
+          <img id="projImg" src={moodRngImg} alt="moodrng screenshot"></img>
+        </div>
+        <div class="col-sm">
+          <p>MoodRng Wellness Tracker</p>
+          <img id="projImg" src={moodRngImg} alt="moodrng screenshot"></img>
+        </div>
+        <div class="col-sm">
+          <p>MoodRng Wellness Tracker</p>
+          <img id="projImg" src={moodRngImg} alt="moodrng screenshot"></img>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <p>MoodRng Wellness Tracker</p>
+          <img id="projImg" src={moodRngImg} alt="moodrng screenshot"></img>
+        </div>
+        <div class="col-sm">
+          <p>MoodRng Wellness Tracker</p>
+          <img id="projImg" src={moodRngImg} alt="moodrng screenshot"></img>
+        </div>
+        <div class="col-sm">
+          <p>MoodRng Wellness Tracker</p>
+          <img id="projImg" src={moodRngImg} alt="moodrng screenshot"></img>
+        </div>
+      </div>
     </div>
-    <div class="col-sm">
-      One of three columns
-      <img id="projImg"src={moodRngImg} alt='moodrng screenshot'></img>
-    </div>
-    <div class="col-sm">
-      One of three columns
-      <img id="projImg"src={moodRngImg} alt='moodrng screenshot'></img>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-      <img id="projImg"src={moodRngImg} alt='moodrng screenshot'></img>
-    </div>
-    <div class="col-sm">
-      One of three columns
-      <img id="projImg"src={moodRngImg} alt='moodrng screenshot'></img>
-    </div>
-    <div class="col-sm">
-      One of three columns
-      <img id="projImg"src={moodRngImg} alt='moodrng screenshot'></img>
-    </div>
-  </div>
-</div>
   );
 }
 
 export default Projects;
 
-
-{/* <div className="proj-container"
+{
+  /* <div className="proj-container"
 id="carouselExampleIndicators"
 className="carousel slide"
 data-ride="carousel"
@@ -99,4 +100,5 @@ data-ride="carousel"
   <span className="carousel-control-next-icon" aria-hidden="true"></span>
   <span className="sr-only">Next</span>
 </a>
-</div> */}
+</div> */
+}

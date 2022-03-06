@@ -1,0 +1,43 @@
+/* #container{
+    background-color: black;
+     display: flex;
+     justify-content: space-around;
+}
+
+#navItems{
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+} */
+
+nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #DA7422;
+    font-family: 'Zen Kurenaido', sans-serif;
+  }
+  
+  nav a.active {
+    color: #BF4E30;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  nav a.inactive {
+    color: #EEF4D4;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  nav a:hover {
+    color: #A59132;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    align-items: center;
+  }

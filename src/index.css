@@ -1,39 +1,30 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
 * {
   margin: 0%;
-}
-
-nav {
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
-  background-color: #E5EAFA;
   font-family: 'Zen Kurenaido', sans-serif;
+  
 }
 
-nav a.active {
-  color: #BF4E30;
-  text-decoration: none;
-  font-size: 20px;
-  /* border: solid beige;
-  border-radius: 15%;
-  border-spacing: 20%; */
+.App {
+  height: 100%;
+  width: 100%;
 }
 
-nav a.inactive {
-  color: #EEF4D4;
-  text-decoration: none;
-  font-size: 10px;
-}
 
-nav a:hover {
-  color: black;
-}
 
-ul {
-  display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
-  align-items: center;
+
+h1{
+  background-color: black;
+  height: 100%;
 }
 
 .mx-2 {
@@ -59,3 +50,20 @@ ul {
   width: 100%;
   height: auto;
 }
+
+
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#row2{
+  margin-top: 10%;
+}
+
+/* .App{
+  background-color: #A59132;
+} */
