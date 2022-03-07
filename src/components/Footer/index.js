@@ -9,7 +9,7 @@ function Footer() {
     <div>
       <footer className="flex-row px-1" id="container">
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/mark-loercher-682279180/"
           target="_blank"
           without
           rel="noreferrer"

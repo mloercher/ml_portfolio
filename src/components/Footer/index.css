@@ -16,3 +16,9 @@ img{
     width: 32px;
     color: black;
 }
+
+img:hover{
+    border: solid beige;
+    border-width: 3px;
+    border-style: dashed;
+}
