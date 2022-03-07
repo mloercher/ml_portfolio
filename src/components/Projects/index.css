@@ -3,11 +3,19 @@
 }
 
 #projImg {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   transition: 0.7s;
   border: solid black;
   box-shadow: 20px;
+}
+#projImg {
+  height: 80%;
+  width: 100%;
+  transition: 0.7s;
+  border: solid black;
+  box-shadow: 20px;
+  margin-bottom: 0%;
 }
 
 #projImg:hover {
@@ -17,13 +25,15 @@
 .row{
   background-color: #EEF4D4;
 }
-
-#row2{
-  margin-top: 10%;
-}
-
-p {
+.row p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0%;
+  /* margin-top: 2%; */
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-weight: bold;
 }
+
+
+

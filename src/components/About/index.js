@@ -1,5 +1,6 @@
 import React from 'react'
-import treeImage from '../../assets/tree-cropped.png';
+import treeImage from '../../assets/images/tree-cropped.png';
+import './index.css';
 
 
 function About() {

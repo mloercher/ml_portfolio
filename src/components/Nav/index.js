@@ -14,7 +14,7 @@ function Nav(props) {
             props.setBackgroundColor("#DAEFB3");
           }}
         >
-          home
+          HOME
         </Link>
         <a href="/" className="toggle-button">
           <span className="bar"></span>
@@ -32,7 +32,7 @@ function Nav(props) {
               props.setBackgroundColor("#DAEFB3");
             }}
           >
-            about
+            ABOUT
           </NavLink>
         </li>
         <li className="mx-2">
@@ -45,7 +45,7 @@ function Nav(props) {
               props.setNavColor("#EEF4D4");
             }}
           >
-            projects
+            PROJECTS
           </NavLink>
         </li>
         <li className="mx-2">
@@ -58,7 +58,7 @@ function Nav(props) {
               props.setNavColor("#C2D897");
             }}
           >
-            contact
+            CONTACT
           </NavLink>
         </li>
       </ul>
