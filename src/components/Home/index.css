@@ -4,10 +4,7 @@
   src: url("../../assets/fonts/TS-Block-Bold.ttf");
 }
 
-h1{
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .container h1 {
   overflow: hidden;
   display: flex;
@@ -32,4 +29,22 @@ h1{
   justify-content: center;
   margin-top: 15%;
   /* align-items: center; */
+}
+
+.description{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-width: 10px;
+  width: 100;
+}
+.description p{
+  font-family: myFirstFont;
+}
+
+p{
+  display: flex;
+  justify-content: center;
 }

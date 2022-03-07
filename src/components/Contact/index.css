@@ -1,8 +1,14 @@
+h1{
+  display: flex;
+}
+
 section{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
+  margin-top: 5%;
 }
 
 #contact-form{
@@ -12,14 +18,18 @@ section{
   align-items: center;
   font-family: navItems;
   width: 100%;
+  margin-top: 2%;
 }
 
+
 #field{
-  width: 50%;
+  width: 70%;
+  height: 100%;
 }
 
 textarea{
   width: 100%;
+  height: 100%;
 }
 
 input{

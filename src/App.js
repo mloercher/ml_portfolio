@@ -7,11 +7,11 @@ import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact/Contact";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 function App() {
-
-  const [backgroundColor, setBackgroundColor] = useState("#DAEFB3");
-  const [navColor, setNavColor] = useState("#DAEFB3");
+  const [backgroundColor, setBackgroundColor] = useState("#C2D897");
+  const [navColor, setNavColor] = useState("#C2D897");
 
   function renderApp() {
     // if(pageRendered == "Home") {
@@ -38,6 +38,7 @@ function App() {
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     );
   }

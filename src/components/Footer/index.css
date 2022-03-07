@@ -1,0 +1,18 @@
+footer{
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+} 
+
+img{
+    font-size: 10px;
+    height: 32px;
+    width: 32px;
+    color: black;
+}

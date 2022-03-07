@@ -5,31 +5,28 @@ import { NavLink, Link } from "react-router-dom";
 function Nav(props) {
   return (
     <nav className="flex-row px-1" id="container">
-      <h2>
-        <Link
-          to="/"
-          style={{ textDecoration: "none" }}
-          className={(navData) => (navData.isActive ? "active" : "inactive")}
-          onClick={() => {
-            props.setBackgroundColor("#DAEFB3");
-          }}
-        >
-          HOME
-        </Link>
-        <a href="/" className="toggle-button">
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
-        </a>
-      </h2>
       <ul className="flex-row" id="navItems">
+        <li>
+          <NavLink
+            to="/"
+            style={{ textDecoration: "none" }}
+            className={(navData) => (navData.isActive ? "active" : "inactive")}
+            onClick={() => {
+              props.setBackgroundColor("#C2D897");
+              props.setNavColor("#C2D897");
+            }}
+          >
+            HOME
+          </NavLink>
+        </li>
         <li className="mx-2">
           <NavLink
             to="/about"
             style={{ textDecoration: "none" }}
             className={({ isActive }) => (isActive ? "active" : "inactive")}
             onClick={() => {
-              props.setBackgroundColor("#DAEFB3");
+              props.setBackgroundColor("#C2D897");
+              props.setNavColor("#C2D897");
             }}
           >
             ABOUT
