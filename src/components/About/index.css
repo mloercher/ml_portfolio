@@ -1,0 +1,23 @@
+
+
+
+#aboutImage{
+    margin: 0%;
+    height: 70%;
+    width: 30%;
+}
+
+.aboutContainer{
+    display: flex;
+    width: 80%;
+}
+
+.aboutTxt{
+    font-size: 1.5rem;
+}
+
+section{
+    margin-top: auto;
+    background-color: #EEF4D4;
+
+}

@@ -4,20 +4,22 @@ footer{
     position: fixed;
 }
 
-#container{
+#footerContainer{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     bottom: 0;
+    width: 100vw;
 } 
 
-img{
+.footerImg {
     font-size: 10px;
     height: 32px;
     width: 32px;
     color: black;
+
 }
 
-img:hover{
+.footerImg:hover{
     border: solid beige;
     border-width: 3px;
     border-style: dashed;

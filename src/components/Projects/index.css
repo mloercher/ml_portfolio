@@ -1,3 +1,4 @@
+
 .projContainer {
   margin: 4% 2% 0 2%;
 }
@@ -16,15 +17,18 @@
   border: solid black;
   box-shadow: 20px;
   margin-bottom: 0%;
+  background-color: #C2D897;
 }
 
 #projImg:hover {
   transform: scale(0.9);
 }
 
-.row{
-  background-color: #EEF4D4;
+.row {
+  background-color: #C2D897;
+  position: relative;
 }
+
 .row p {
   display: flex;
   justify-content: center;

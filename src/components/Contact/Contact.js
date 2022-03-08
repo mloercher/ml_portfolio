@@ -1,16 +1,22 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
-import './index.css';
+import "./index.css";
 function Contact() {
-  const [errorMessage, setErrorMessage] = useState("");
+  // manages form data
   const [formState, setFormState] = useState({
     name: " ",
     email: " ",
     message: " ",
   });
+  // manages error messaging
+  const [errorMessage, setErrorMessage] = useState("");
+
+  // destructuring name, email and message from formState
   const { name, email, message } = formState;
+
   //   functions for handleChange and handleSubmit
   function handleChange(e) {
+    // email  validation
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       console.log(isValid);
@@ -31,11 +37,11 @@ function Contact() {
     console.log("errorMessage", errorMessage);
   }
 
+  // prevent the default action of the form Submit button and then log the formState object on the Submit button click
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
   }
-  console.log(formState);
   return (
     <section>
       <h1>THANKS FOR STOPPING BY</h1>
@@ -44,6 +50,7 @@ function Contact() {
           <label htmlFor="name">Name:</label>
           <input
             type="text"
+            // default value is set to initial state as set by line 7 useState hook
             defaultValue={name}
             onChange={handleChange}
             name="name"
@@ -53,6 +60,7 @@ function Contact() {
           <label htmlFor="email">Email address:</label>
           <input
             type="email"
+            // default value is set to initial state as set by line 8 useState hook
             defaultValue={email}
             name="email"
             onChange={handleChange}
@@ -62,6 +70,7 @@ function Contact() {
           <label htmlFor="message">Message:</label>
           <textarea
             name="message"
+            // default value is set to initial state as set by line 9 useState hook
             defaultValue={message}
             onChange={handleChange}
             rows="5"

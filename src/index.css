@@ -3,14 +3,15 @@ html{
   width: 100%;
 }
 
-body {
+/* body {
   height: 100%;
   width: 100%;
-}
+} */
 
 * {
   margin-top: 0%;
   font-family: 'Zen Kurenaido', sans-serif;
+  box-sizing: border-box;
 }
 
 .App {
@@ -19,12 +20,3 @@ body {
   width: 100%;
 }
 
-
-
-
-
-
-
-/* .App{
-  background-color: #A59132;
-} */

@@ -1,21 +1,24 @@
-import React from 'react'
-import treeImage from '../../assets/images/tree-cropped.png';
-import './index.css';
-
+import React from "react";
+import aboutImage from "../../assets/images/About.jpg";
+import "./index.css";
 
 function About() {
+  return (
+    <section>
+      {/* <h1 id="about">Who am I?</h1> */}
+      <img src={aboutImage} id="aboutImage" alt="cover"  />
 
-    return (
-      <section>
-        {/* <h1 id="about">Who am I?</h1> */}
-        <img src={treeImage} style={{ width: "100%" }} alt="cover" />
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+      <div className="aboutContainer">
+        <p className="aboutTxt">
+          Hello! My name is Mark Loercher and I am a Musician, Producer,
+          Cat-Dad, New Yorker and Web Developer. I am currently enrolled in
+          Columbia University's Web Developing Bootcamp where I am honing my web
+          dev skills by learning the most widely used languages. I look forward
+          to continuing the journey!
         </p>
-        </div>
-      </section>
-    )
-  }
-  
-  export default About;
+      </div>
+    </section>
+  );
+}
+
+export default About;

@@ -7,14 +7,14 @@ import stackLogo from "../../assets/images/stack.png";
 function Footer() {
   return (
     <div>
-      <footer className="flex-row px-1" id="container">
+      <footer className="flex-row px-1" id="footerContainer">
         <a
           href="https://www.linkedin.com/in/mark-loercher-682279180/"
           target="_blank"
           without
           rel="noreferrer"
         >
-          <img src={linkedInLogo} alt="linkedin logo"></img>
+          <img className="footerImg" src={linkedInLogo} alt="linkedin logo"></img>
         </a>
         <a
           href="https://www.github.com/mloercher"
@@ -22,7 +22,7 @@ function Footer() {
           without
           rel="noreferrer"
         >
-          <img src={gitLogo} alt="github logo"></img>
+          <img className="footerImg" src={gitLogo} alt="github logo"></img>
         </a>
         <a
           href="https://www.stackoverflow.com"
@@ -30,7 +30,7 @@ function Footer() {
           without
           rel="noreferrer"
         >
-          <img src={stackLogo} alt="stack overflow logo"></img>
+          <img className="footerImg" src={stackLogo} alt="stack overflow logo"></img>
         </a>
       </footer>
     </div>
