@@ -35,7 +35,7 @@ function Projects(props) {
             >
               deployed app
             </a>
-            //
+            ||
             <a
               href="https://github.com/a-breezy/MoodRng"
               target="_blank"
@@ -69,7 +69,7 @@ function Projects(props) {
             >
               deployed app
             </a>
-            //
+            ||
             <a
               href="https://github.com/mloercher/flight-for-tonight"
               target="_blank"
@@ -99,7 +99,7 @@ function Projects(props) {
             >
               deployed app
             </a>
-            //
+            ||
             <a
               href="https://github.com/mloercher/Js-code-quiz"
               target="_blank"
@@ -131,7 +131,7 @@ function Projects(props) {
             >
               deployed app
             </a>
-            //
+            ||
             <a
               href="https://github.com/mloercher/Help_Me_Remember"
               target="_blank"
@@ -161,7 +161,7 @@ function Projects(props) {
             >
               deployed app
             </a>
-            //
+            ||
             <a
               href="https://github.com/mloercher/Progressive_Budgeting"
               target="_blank"
@@ -191,7 +191,7 @@ function Projects(props) {
             >
               deployed app
             </a>
-            //
+            ||
             <a
               href="https://github.com/mloercher/plan-your-workday"
               target="_blank"
