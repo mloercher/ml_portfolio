@@ -1,14 +1,14 @@
-footer{
-    right: 0;
+/* footer{
     bottom: 0;
-    position: fixed;
-}
+    height: auto;
+} */
 
 #footerContainer{
     display: flex;
     justify-content:center;
     bottom: 0;
     width: 100vw;
+    position: fixed;
 } 
 
 .footerImg {
@@ -16,7 +16,6 @@ footer{
     height: 32px;
     width: 32px;
     color: black;
-
 }
 
 .footerImg:hover{

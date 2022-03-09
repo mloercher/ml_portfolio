@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 
 function Nav(props) {
   return (
@@ -14,6 +14,7 @@ function Nav(props) {
             onClick={() => {
               props.setBackgroundColor("#C2D897");
               props.setNavColor("#C2D897");
+              props.setFooterColor("#C2D897");
             }}
           >
             HOME
@@ -27,6 +28,7 @@ function Nav(props) {
             onClick={() => {
               props.setBackgroundColor("#EEF4D4");
               props.setNavColor("#EEF4D4");
+              props.setFooterColor("#EEF4D4");
             }}
           >
             ABOUT
@@ -40,6 +42,7 @@ function Nav(props) {
             onClick={() => {
               props.setBackgroundColor("#C2D897");
               props.setNavColor("#C2D897");
+              props.setFooterColor("#C2D897");
             }}
           >
             PROJECTS
@@ -53,6 +56,7 @@ function Nav(props) {
             onClick={() => {
               props.setBackgroundColor("#EEF4D4");
               props.setNavColor("#EEF4D4");
+              props.setFooterColor("#EEF4D4");
             }}
           >
             CONTACT

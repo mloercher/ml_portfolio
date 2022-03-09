@@ -1,6 +1,10 @@
 
 .projContainer {
   margin: 4% 2% 0 2%;
+  position: relative;
+  padding-bottom: 7%;
+  overflow: hidden;
+  
 }
 
 #projImg {
@@ -27,6 +31,12 @@
 .row {
   background-color: #C2D897;
   position: relative;
+ 
+}
+.row2 {
+  background-color: #C2D897;
+  position: relative;
+  
 }
 
 .row p {

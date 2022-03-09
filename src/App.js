@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 function App() {
   const [backgroundColor, setBackgroundColor] = useState("#C2D897");
   const [navColor, setNavColor] = useState("#C2D897");
+  const [footerColor, setFooterColor] = useState("#C2D897");
 
   function renderApp() {
     // if(pageRendered == "Home") {
@@ -24,12 +25,14 @@ function App() {
         style={{
           backgroundColor: backgroundColor,
           navColor: navColor,
+          footerColor: footerColor,
           height: "100vh",
         }}
       >
         <Nav
           setBackgroundColor={setBackgroundColor}
           setNavColor={setNavColor}
+          setFooterColor={setFooterColor}
         />
         {/* Routes = Switch in react router v6 */}
         <Routes>
