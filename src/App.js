@@ -14,6 +14,7 @@ import Contact from "./components/Contact/Contact";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 
+//declaring name of initial states and setter functions
 function App() {
   const [backgroundColor, setBackgroundColor] = useState("#C2D897");
   const [navColor, setNavColor] = useState("#C2D897");
@@ -54,27 +55,3 @@ function App() {
 }
 
 export default App;
-
-// declaring the name of the state (pageRendered) and name of setter func
-// setting default state to About
-
-// original return for prop conditional rendering
-
-/* <div>
-  <Nav setter={setPageRendered} />
-  <main>{renderMain()}</main>
-</div>; */
-
-// Original main render func
-// if current state (pageRendered) is About, return About component
-// if current state (pageRendered) is Projects, return Projects component
-// if current state (pageRendered) is Contact, return Contact component
-// function renderMain() {
-//   if (pageRendered === "About") {
-//     return <About />;
-//   } else if (pageRendered === "Projects") {
-//     return <Projects />;
-//   } else if (pageRendered === "Contact") {
-//     return <Contact />;
-//   }
-// }
