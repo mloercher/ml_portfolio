@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ml-react-portfolio/static/css/main.07c7c815.css",
-    "main.js": "/ml-react-portfolio/static/js/main.3d0172d5.js",
-    "static/js/787.52173d8a.chunk.js": "/ml-react-portfolio/static/js/787.52173d8a.chunk.js",
-    "static/media/flight-for-tonight.png": "/ml-react-portfolio/static/media/flight-for-tonight.f931e9ef58c948ac5fee.png",
-    "static/media/MoodRng.png": "/ml-react-portfolio/static/media/MoodRng.a2ff44b8c9f899baa85d.png",
-    "static/media/About.jpg": "/ml-react-portfolio/static/media/About.2c1bf59fe4ae0607587f.jpg",
-    "static/media/budgeting.png": "/ml-react-portfolio/static/media/budgeting.5005ed143561517beedf.png",
-    "static/media/workday.png": "/ml-react-portfolio/static/media/workday.9e5d8bced0d108fa4fba.png",
-    "static/media/note-taker.png": "/ml-react-portfolio/static/media/note-taker.bd06e920eae19e331ccf.png",
-    "static/media/Heavitas.ttf": "/ml-react-portfolio/static/media/Heavitas.5c1338969ac9e05855a4.ttf",
-    "static/media/js-quiz.png": "/ml-react-portfolio/static/media/js-quiz.46006a93cbf52182861e.png",
-    "static/media/TS-Block-Bold.ttf": "/ml-react-portfolio/static/media/TS-Block-Bold.9c11f002a4c173b8fa39.ttf",
-    "index.html": "/ml-react-portfolio/index.html",
-    "main.07c7c815.css.map": "/ml-react-portfolio/static/css/main.07c7c815.css.map",
-    "main.3d0172d5.js.map": "/ml-react-portfolio/static/js/main.3d0172d5.js.map",
-    "787.52173d8a.chunk.js.map": "/ml-react-portfolio/static/js/787.52173d8a.chunk.js.map"
+    "main.css": "/static/css/main.3af9bb26.css",
+    "main.js": "/static/js/main.0393cea7.js",
+    "static/js/787.52173d8a.chunk.js": "/static/js/787.52173d8a.chunk.js",
+    "static/media/flight-for-tonight.png": "/static/media/flight-for-tonight.f931e9ef58c948ac5fee.png",
+    "static/media/MoodRng.png": "/static/media/MoodRng.a2ff44b8c9f899baa85d.png",
+    "static/media/About.jpg": "/static/media/About.2c1bf59fe4ae0607587f.jpg",
+    "static/media/budgeting.png": "/static/media/budgeting.5005ed143561517beedf.png",
+    "static/media/workday.png": "/static/media/workday.9e5d8bced0d108fa4fba.png",
+    "static/media/note-taker.png": "/static/media/note-taker.bd06e920eae19e331ccf.png",
+    "static/media/Heavitas.ttf": "/static/media/Heavitas.5c1338969ac9e05855a4.ttf",
+    "static/media/js-quiz.png": "/static/media/js-quiz.46006a93cbf52182861e.png",
+    "static/media/TS-Block-Bold.ttf": "/static/media/TS-Block-Bold.9c11f002a4c173b8fa39.ttf",
+    "index.html": "/index.html",
+    "main.3af9bb26.css.map": "/static/css/main.3af9bb26.css.map",
+    "main.0393cea7.js.map": "/static/js/main.0393cea7.js.map",
+    "787.52173d8a.chunk.js.map": "/static/js/787.52173d8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07c7c815.css",
-    "static/js/main.3d0172d5.js"
+    "static/css/main.3af9bb26.css",
+    "static/js/main.0393cea7.js"
   ]
 }
