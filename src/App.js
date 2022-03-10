@@ -1,6 +1,11 @@
 import { React, useState } from "react";
 // React Router imports below---in V6, Switch is replaced by Routes
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 // import components below
 import About from "./components/About";
 import Nav from "./components/Nav";
@@ -15,10 +20,6 @@ function App() {
   const [footerColor, setFooterColor] = useState("#C2D897");
 
   function renderApp() {
-    // if(pageRendered == "Home") {
-
-    // }
-
     return (
       <div
         className="App"
@@ -36,7 +37,8 @@ function App() {
         />
         {/* Routes = Switch in react router v6 */}
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Navigate replace to="/home" />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/contact" element={<Contact />} />
