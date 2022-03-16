@@ -6,6 +6,7 @@ import jsQuiz from "../../assets/images/js-quiz.png";
 import helpMeRemember from "../../assets/images/note-taker.png";
 import budgetApp from "../../assets/images/budgeting.png";
 import workday from "../../assets/images/workday.png";
+import kitchenSink from "../../assets/images/kitchenSink.png";
 
 import { Link } from "react-router-dom";
 
@@ -113,14 +114,14 @@ function Projects(props) {
       </div>
       <div class="row" id="row2">
         <div class="col-sm">
-          <p>Help Me Remember</p>
+          <p>Kitchen Sink</p>
           <a
-            href="https://floating-refuge-18912.herokuapp.com/"
+            href="https://kitchen-sink.herokuapp.com/"
             target="_blank"
             without
             rel="noreferrer"
           >
-            <img src={helpMeRemember} id="projImg" alt="notetaker screenshot" />
+            <img src={kitchenSink} id="projImg" alt="notetaker screenshot" />
           </a>
           <p>
             <a
