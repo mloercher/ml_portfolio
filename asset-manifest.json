@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/ml-react-portfolio/static/css/main.07c7c815.css",
-    "main.js": "/ml-react-portfolio/static/js/main.84e5909c.js",
+    "main.js": "/ml-react-portfolio/static/js/main.82498d58.js",
     "static/js/787.52173d8a.chunk.js": "/ml-react-portfolio/static/js/787.52173d8a.chunk.js",
     "static/media/flight-for-tonight.png": "/ml-react-portfolio/static/media/flight-for-tonight.f931e9ef58c948ac5fee.png",
+    "static/media/kitchenSink.png": "/ml-react-portfolio/static/media/kitchenSink.6df4ff2e4860672ceed8.png",
     "static/media/MoodRng.png": "/ml-react-portfolio/static/media/MoodRng.a2ff44b8c9f899baa85d.png",
     "static/media/About.jpg": "/ml-react-portfolio/static/media/About.2c1bf59fe4ae0607587f.jpg",
     "static/media/budgeting.png": "/ml-react-portfolio/static/media/budgeting.5005ed143561517beedf.png",
@@ -14,11 +15,11 @@
     "static/media/TS-Block-Bold.ttf": "/ml-react-portfolio/static/media/TS-Block-Bold.9c11f002a4c173b8fa39.ttf",
     "index.html": "/ml-react-portfolio/index.html",
     "main.07c7c815.css.map": "/ml-react-portfolio/static/css/main.07c7c815.css.map",
-    "main.84e5909c.js.map": "/ml-react-portfolio/static/js/main.84e5909c.js.map",
+    "main.82498d58.js.map": "/ml-react-portfolio/static/js/main.82498d58.js.map",
     "787.52173d8a.chunk.js.map": "/ml-react-portfolio/static/js/787.52173d8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07c7c815.css",
-    "static/js/main.84e5909c.js"
+    "static/js/main.82498d58.js"
   ]
 }
