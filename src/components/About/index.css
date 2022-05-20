@@ -2,22 +2,24 @@
 
 
 #aboutImage{
-    margin: 0%;
-    height: 65%;
-    width: 25%;
+    height: 430px;
+    width: 460px;
+    border-radius: 50%;
 }
 
 .aboutContainer{
     display: flex;
-    width: 80%;
+    width: 85%;
     flex-wrap: wrap;
+    
 }
 
 .aboutTxt{
-    font-size: 24px;
+    font-size: 26px;
+    margin-top: 1%;
 }
 
 section{
-    margin-top: auto;
+    margin-top: 2%;
     background-color: #EEF4D4;
 }

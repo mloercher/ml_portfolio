@@ -7,29 +7,30 @@ import helpMeRemember from "../../assets/images/note-taker.png";
 import budgetApp from "../../assets/images/budgeting.png";
 import workday from "../../assets/images/workday.png";
 import kitchenSink from "../../assets/images/kitchenSink.png";
+import NE_Projects from '../../assets/images/tinyNE.png'
 
 import { Link } from "react-router-dom";
 
 // add an array of objects containing project names and descriptions
 // add hook to utilize useState to display project titles and images accordingly.
 
-function Projects(props) {
+function Projects() {
   return (
     <div class="projContainer">
       <div class="row" id="row1">
         <div class="col-sm">
-          <p>MoodRng Wellness Tracker</p>
+          <p>Northeast Proects, LLC</p>
           <a
-            href="https://moodrngwellnessapp.herokuapp.com/"
+            href="https://mloercher.github.io/northeast_projects"
             target="_blank"
             without
             rel="noreferrer"
           >
-            <img src={moodRngImg} id="projImg" alt="moodrng screenshot" />
+            <img src={NE_Projects} id="projImg" alt="moodrng screenshot" />
           </a>
           <p>
             <a
-              href="https://moodrngwellnessapp.herokuapp.com/"
+              href="https://mloercher.github.io/northeast_projects"
               target="_blank"
               without
               rel="noreferrer"
@@ -38,7 +39,37 @@ function Projects(props) {
             </a>
             ||
             <a
-              href="https://github.com/a-breezy/MoodRng"
+              href="https://github.com/mloercher/ne_projects"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              repo
+            </a>
+          </p>
+        </div>
+        <div class="col-sm">
+          <p>Kitchen Sink</p>
+          <a
+            href="https://kitchen-sink.herokuapp.com/"
+            target="_blank"
+            without
+            rel="noreferrer"
+          >
+            <img src={kitchenSink} id="projImg" alt="notetaker screenshot" />
+          </a>
+          <p>
+            <a
+              href="https://floating-refuge-18912.herokuapp.com/"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              deployed app
+            </a>
+            ||
+            <a
+              href="https://github.com/mloercher/Help_Me_Remember"
               target="_blank"
               without
               rel="noreferrer"
@@ -81,6 +112,38 @@ function Projects(props) {
             </a>
           </p>
         </div>
+      </div>
+      <div class="row" id="row2">
+      <div class="col-sm">
+          <p>MoodRng Wellness Tracker</p>
+          <a
+            href="https://moodrngwellnessapp.herokuapp.com/"
+            target="_blank"
+            without
+            rel="noreferrer"
+          >
+            <img src={moodRngImg} id="projImg" alt="moodrng screenshot" />
+          </a>
+          <p>
+            <a
+              href="https://moodrngwellnessapp.herokuapp.com/"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              deployed app
+            </a>
+            ||
+            <a
+              href="https://github.com/a-breezy/MoodRng"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              repo
+            </a>
+          </p>
+        </div>
         <div class="col-sm">
           <p>JavaScript Quiz</p>
           <a
@@ -103,38 +166,6 @@ function Projects(props) {
             ||
             <a
               href="https://github.com/mloercher/Js-code-quiz"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              repo
-            </a>
-          </p>
-        </div>
-      </div>
-      <div class="row" id="row2">
-        <div class="col-sm">
-          <p>Kitchen Sink</p>
-          <a
-            href="https://kitchen-sink.herokuapp.com/"
-            target="_blank"
-            without
-            rel="noreferrer"
-          >
-            <img src={kitchenSink} id="projImg" alt="notetaker screenshot" />
-          </a>
-          <p>
-            <a
-              href="https://floating-refuge-18912.herokuapp.com/"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              deployed app
-            </a>
-            ||
-            <a
-              href="https://github.com/mloercher/Help_Me_Remember"
               target="_blank"
               without
               rel="noreferrer"
@@ -173,36 +204,7 @@ function Projects(props) {
             </a>
           </p>
         </div>
-        <div class="col-sm">
-          <p>Workday Hourly Planner</p>
-          <a
-            href="https://mloercher.github.io/plan-your-workday/"
-            target="_blank"
-            without
-            rel="noreferrer"
-          >
-            <img src={workday} id="projImg" alt="moodrng screenshot" />
-          </a>
-          <p>
-            <a
-              href="https://mloercher.github.io/plan-your-workday/"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              deployed app
-            </a>
-            ||
-            <a
-              href="https://github.com/mloercher/plan-your-workday"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              repo
-            </a>
-          </p>
-        </div>
+
       </div>
     </div>
   );

@@ -13,6 +13,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact/Contact";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import Contact2 from "./components/Contact/Contact2"
 
 //declaring name of initial states and setter functions
 function App() {
@@ -42,7 +43,7 @@ function App() {
           <Route path="/ml-react-portfolio" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/projects" element={<Projects />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/contact" element={<Contact2 />} />
         </Routes>
         <Footer />
       </div>

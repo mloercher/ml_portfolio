@@ -1,13 +1,12 @@
 import React from "react";
-import aboutImage from "../../assets/images/About.jpg";
+import aboutImage from '../../assets/images/croppedOption1.png'
 import "./index.css";
 
 function About() {
   return (
     <section>
       {/* <h1 id="about">Who am I?</h1> */}
-      <img src={aboutImage} id="aboutImage" alt="cover"  />
-
+        <img src={aboutImage} id="aboutImage" alt="cover" />
       <div className="aboutContainer">
         <p className="aboutTxt">
           Hello! My name is Mark Loercher and I am a Musician, Producer,
