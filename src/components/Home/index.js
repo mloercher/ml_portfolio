@@ -1,9 +1,10 @@
-import React from "react";
 import "./index.css";
 
-function Home(props) {
+
+function Home() {
+
   return (
-    <div>
+    <div className="home-container">
       <div className="container">
         <h1>Mark Loercher</h1>
       </div>

@@ -2,8 +2,8 @@
 
 
 #aboutImage{
-    height: 430px;
-    width: 460px;
+    height: 25rem;
+    width: 27rem;
     border-radius: 50%;
 }
 
@@ -17,9 +17,10 @@
 .aboutTxt{
     font-size: 26px;
     margin-top: 1%;
+    text-align: center;
 }
 
 section{
     margin-top: 2%;
-    background-color: #EEF4D4;
+    background-color: "#C2D897";
 }

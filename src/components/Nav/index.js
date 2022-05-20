@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import { NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Nav(props) {
 
@@ -60,7 +60,7 @@ function Nav(props) {
               props.setFooterColor("#EEF4D4");
             }}
           >
-            CONTACT
+            INFO
           </NavLink>
         </li>
       </ul>

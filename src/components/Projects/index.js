@@ -1,15 +1,11 @@
 import React from "react";
 import "./index.css";
-import moodRngImg from "../../assets/images/MoodRng.png";
-import flightForTonight from "../../assets/images/flight-for-tonight.png";
-import jsQuiz from "../../assets/images/js-quiz.png";
-import helpMeRemember from "../../assets/images/note-taker.png";
-import budgetApp from "../../assets/images/budgeting.png";
-import workday from "../../assets/images/workday.png";
-import kitchenSink from "../../assets/images/kitchenSink.png";
+import moodRngImg from "../../assets/images/tinyMoodRng.png";
+import flightForTonight from "../../assets/images/tinyflight-for-tonight.png";
+import jsQuiz from "../../assets/images/tinyjs-quiz.png";
+import budgetApp from "../../assets/images/tinybudgeting.png";
+import kitchenSink from "../../assets/images/tinykitchenSink.png";
 import NE_Projects from '../../assets/images/tinyNE.png'
-
-import { Link } from "react-router-dom";
 
 // add an array of objects containing project names and descriptions
 // add hook to utilize useState to display project titles and images accordingly.

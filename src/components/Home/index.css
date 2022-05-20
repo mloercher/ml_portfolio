@@ -4,6 +4,12 @@
   src: url("../../assets/fonts/TS-Block-Bold.ttf");
 }
 
+.home-container{
+background-color:#C2D897;
+height: 100vh;
+width: 100vw;
+}
+
 
 .container h1 {
   overflow:scroll;
@@ -25,10 +31,8 @@
 
 .container {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
-  margin-top: 15%;
-  /* align-items: center; */
+  padding-top: 15%;
 }
 
 .description{
