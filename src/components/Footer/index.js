@@ -4,7 +4,7 @@ import gitLogo from "../../assets/images/git.png";
 import linkedInLogo from "../../assets/images/link.png";
 import stackLogo from "../../assets/images/stack.png";
 
-function Footer() {
+function Footer(props) {
   return (
       <footer className="flex-row px-1" id="footerContainer">
         <a
