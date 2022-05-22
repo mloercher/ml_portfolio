@@ -28,9 +28,9 @@ function Nav(props) {
                 style={{ textDecoration: "none" }}
                 activeclassname='active' className='nav-links'
                 onClick={() => {
-                  props.setBackgroundColor("#EEF4D4");
-                  props.setNavColor("#EEF4D4");
-                  props.setFooterColor("#EEF4D4");
+                  props.setBackgroundColor("#C2D897");
+                  props.setNavColor("#C2D897");
+                  props.setFooterColor("#C2D897");
                   closeMobileMenu();
                 }}
               >

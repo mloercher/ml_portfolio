@@ -6,7 +6,7 @@ import resume from '../../assets/images/MarkLoercherResume.pdf'
 function Contact() {
 
   return (
-    <section >
+    <section>
       <h1>LET'S CONNECT:</h1>
       <ul className="cont-container">
         <li>
