@@ -6,6 +6,7 @@ import jsQuiz from "../../assets/images/tinyjs-quiz.png";
 import budgetApp from "../../assets/images/tinybudgeting.png";
 import kitchenSink from "../../assets/images/tinykitchenSink.png";
 import NE_Projects from '../../assets/images/tinyNE.png'
+import Project from "./Project";
 
 // add an array of objects containing project names and descriptions
 // add hook to utilize useState to display project titles and images accordingly.
@@ -14,193 +15,50 @@ function Projects() {
   return (
     <div class="projContainer">
       <div class="row" id="row1">
-        <div class="col-sm">
-          <p>Northeast Proects, LLC</p>
-          <a
-            href="https://mloercher.github.io/northeast_projects"
-            target="_blank"
-            without
-            rel="noreferrer"
-          >
-            <img src={NE_Projects} id="projImg" alt="moodrng screenshot" />
-          </a>
-          <p>
-            <a
-              href="https://mloercher.github.io/northeast_projects"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              deployed app
-            </a>
-            ||
-            <a
-              href="https://github.com/mloercher/ne_projects"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              repo
-            </a>
-          </p>
-        </div>
-        <div class="col-sm">
-          <p>Kitchen Sink</p>
-          <a
-            href="https://kitchen-sink.herokuapp.com/"
-            target="_blank"
-            without
-            rel="noreferrer"
-          >
-            <img src={kitchenSink} id="projImg" alt="notetaker screenshot" />
-          </a>
-          <p>
-            <a
-              href="https://floating-refuge-18912.herokuapp.com/"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              deployed app
-            </a>
-            ||
-            <a
-              href="https://github.com/mloercher/Help_Me_Remember"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              repo
-            </a>
-          </p>
-        </div>
-        <div class="col-sm">
-          <p>Flight For Tonight</p>
-          <a
-            href="https://mloercher.github.io/flight-for-tonight/"
-            target="_blank"
-            without
-            rel="noreferrer"
-          >
-            <img
-              src={flightForTonight}
-              id="projImg"
-              alt="flight for tonight screenshot"
-            />
-          </a>
-          <p>
-            <a
-              href="https://mloercher.github.io/flight-for-tonight/"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              deployed app
-            </a>
-            ||
-            <a
-              href="https://github.com/mloercher/flight-for-tonight"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              repo
-            </a>
-          </p>
-        </div>
+        <Project
+          name="Northeast Projects"
+          link="https://mloercher.github.io/northeast_projects"
+          img={NE_Projects}
+          alt="ne projects logo"
+          git="https://github.com/mloercher/northeast_projects"
+        />
+        <Project
+          name="Kitchen Sink "
+          link="https://kitchen-sink.herokuapp.com/"
+          img={kitchenSink}
+          alt="kitchen sink projects logo"
+          git="https://github.com/antger78/kitchen_sink"
+        />
+        <Project
+          name="Flight for Tonight"
+          link="https://mloercher.github.io/flight-for-tonight/"
+          img={flightForTonight}
+          alt="flight for tonight projects logo"
+          git="https://github.com/mloercher/flight-for-tonight"
+        />
       </div>
       <div class="row" id="row2">
-      <div class="col-sm">
-          <p>MoodRng Wellness Tracker</p>
-          <a
-            href="https://moodrngwellnessapp.herokuapp.com/"
-            target="_blank"
-            without
-            rel="noreferrer"
-          >
-            <img src={moodRngImg} id="projImg" alt="moodrng screenshot" />
-          </a>
-          <p>
-            <a
-              href="https://moodrngwellnessapp.herokuapp.com/"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              deployed app
-            </a>
-            ||
-            <a
-              href="https://github.com/a-breezy/MoodRng"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              repo
-            </a>
-          </p>
-        </div>
-        <div class="col-sm">
-          <p>JavaScript Quiz</p>
-          <a
-            href="https://mloercher.github.io/Js-code-quiz/"
-            target="_blank"
-            without
-            rel="noreferrer"
-          >
-            <img src={jsQuiz} id="projImg" alt="moodrng screenshot" />
-          </a>
-          <p>
-            <a
-              href="https://mloercher.github.io/Js-code-quiz/"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              deployed app
-            </a>
-            ||
-            <a
-              href="https://github.com/mloercher/Js-code-quiz"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              repo
-            </a>
-          </p>
-        </div>
-        <div class="col-sm">
-          <p>PWA Bugeting App</p>
-          <a
-            href="https://thawing-river-03812.herokuapp.com/"
-            target="_blank"
-            without
-            rel="noreferrer"
-          >
-            <img src={budgetApp} id="projImg" alt="moodrng screenshot" />
-          </a>
-          <p>
-            <a
-              href="https://thawing-river-03812.herokuapp.com/"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              deployed app
-            </a>
-            ||
-            <a
-              href="https://github.com/mloercher/Progressive_Budgeting"
-              target="_blank"
-              without
-              rel="noreferrer"
-            >
-              repo
-            </a>
-          </p>
-        </div>
-
+        <Project
+          name="MoodRng Wellness Tracker"
+          link="https://moodrngwellnessapp.herokuapp.com/"
+          img={moodRngImg}
+          alt="mood ring projects logo"
+          git="https://moodrngwellnessapp.herokuapp.com/"
+        />
+        <Project
+          name="JavaScript Quiz"
+          link="https://mloercher.github.io/Js-code-quiz/"
+          img={jsQuiz}
+          alt="javaScript quiz projects logo"
+          git="https://mloercher.github.io/Js-code-quiz/"
+        />
+        <Project
+          name="PWA Bugeting App"
+          link="https://thawing-river-03812.herokuapp.com/"
+          img={budgetApp}
+          alt="budgeting app project logo"
+          git="https://github.com/mloercher/Progressive_Budgeting"
+        />
       </div>
     </div>
   );
