@@ -49,3 +49,16 @@ width: 100vw;
   font-family: myFirstFont;
   font-size: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  
+  .description p{
+    font-size: 13px;
+  }
+
+  .container{
+    padding-top: 30%;
+  }
+
+
+}

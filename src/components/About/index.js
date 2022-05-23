@@ -4,7 +4,7 @@ import "./index.css";
 
 function About() {
   return (
-    <section>
+    <div className="about-cont">
       {/* <h1 id="about">Who am I?</h1> */}
         <img src={aboutImage} id="aboutImage" alt="cover" />
       <div className="aboutContainer">
@@ -14,7 +14,7 @@ function About() {
           Columbia University's Full Stack Web Development Bootcamp, I have been applying my skillset to various projects ranging from sidescrollers to business contact pages. I am always looking to collaborate on new and interesting projects.
         </p>
       </div>
-    </section>
+    </div>
   );
 }
 

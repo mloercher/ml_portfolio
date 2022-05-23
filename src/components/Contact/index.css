@@ -1,3 +1,17 @@
+.info-main{
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* padding-top: 5%; */
+}
+
+.header{
+  padding-top: 5%;
+}
+
 h1{
   display: flex;
   font-family: myFirstFont;
@@ -9,6 +23,28 @@ section{
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.email-git{
+  display:flex;
+  justify-content: space-between;
+  width: 60vw;
+}
+
+.res{
+  padding-top: 5%;
+}
+
+@media only screen and (max-width: 600px){
+  .email-git{
+    display:block;
+    justify-content: space-between;
+    width: 60vw;
+  }
+
+  a{
+    font-size: 25px;
+  }
 }
 
 /* #contact-form{
@@ -56,10 +92,14 @@ ul{
 .cont-container li{
   text-align: center;
   font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 5%;
 }
 
+
 ul li h2{
-  font-size: 3.3rem;
+  font-size: 3rem;
   display: flex;
   flex-wrap: wrap;
   font-family: myFirstFont;
@@ -71,4 +111,12 @@ ul li h2{
 
 section a {
   color: black;
+}
+
+@media only screen and (min-width: 768px ) and (max-width: 900px){
+  .email-git {
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+  }
 }

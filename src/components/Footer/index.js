@@ -1,10 +1,10 @@
 import React from "react";
 import "./index.css";
-import gitLogo from "../../assets/images/git.png";
-import linkedInLogo from "../../assets/images/link.png";
-import stackLogo from "../../assets/images/stack.png";
+import gitLogo from "../../assets/images/gitWhite.png";
+import linkedInLogo from "../../assets/images/linkedWhite.png";
+import stackLogo from "../../assets/images/stackWhite.png";
 
-function Footer(props) {
+function Footer() {
   return (
       <footer className="flex-row px-1" id="footerContainer">
         <a

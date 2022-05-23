@@ -6,9 +6,12 @@ import resume from '../../assets/images/MarkLoercherResume.pdf'
 function Contact() {
 
   return (
-    <section>
+    <div className="info-main">
+      <div className="header">
       <h1>LET'S CONNECT:</h1>
+      </div>
       <ul className="cont-container">
+        <div className="email-git">
         <li>
           <h2>EMAIL</h2>
           <p><a href="mailto:markloercher@gmail.com">markloercher@gmail.com</a></p>
@@ -22,12 +25,13 @@ function Contact() {
             rel="noreferrer"
           >mloercher</a></p>
         </li>
-        <li>
+        </div>
+        <li className="res">
           <h2>RESUME</h2>
           <p><a href={resume} download>Download here ☺</a></p>
         </li>
       </ul>
-    </section>
+    </div>
   );
 }
 

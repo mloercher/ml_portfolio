@@ -1,12 +1,10 @@
-
 .projContainer {
   padding: 4% 2% 0 2%;
   position: relative;
-  padding-bottom: 7%;
+  /* padding-bottom: 7%; */
   overflow: hidden;
-  
+  height: auto;
 }
-
 
 #projImg {
   height: 80%;
@@ -15,9 +13,9 @@
   border: solid black;
   box-shadow: 20px;
   margin-bottom: 0%;
-  background-color: #C2D897;
+  background-color: #c2d897;
   box-shadow: 1px 3px 5px black;
- 
+  border-radius: 2%;
 }
 
 #projImg:hover {
@@ -25,15 +23,13 @@
 }
 
 .row {
-  background-color: #C2D897;
+  background-color: #c2d897;
   position: relative;
- 
 }
 .row2 {
-  background-color: #C2D897;
+  background-color: #c2d897;
   width: 100vw;
   position: relative;
-  
 }
 
 .row p {
@@ -41,9 +37,14 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 0%;
-  font-family: 'Zen Kurenaido', sans-serif;
+  font-family: "Zen Kurenaido", sans-serif;
   font-weight: bold;
 }
 
-
-
+@media only screen and (max-width: 600px) {
+  .projContainer {
+    padding: 4% 2% 0 2%;
+    position: relative;
+    overflow: hidden;
+  }
+}

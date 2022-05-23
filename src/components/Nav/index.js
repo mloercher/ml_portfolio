@@ -15,7 +15,6 @@ function Nav(props) {
   }
 
   return (
-    <>
       <nav className="navbar">
         <div className='navbar-container'>
           <div className='menu-icon' >
@@ -85,7 +84,6 @@ function Nav(props) {
           </ul>
         </div>
       </nav>
-    </>
   );
 }
 
