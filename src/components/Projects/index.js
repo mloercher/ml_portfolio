@@ -3,9 +3,9 @@ import "./index.css";
 import moodRngImg from "../../assets/images/tinyMoodRng.png";
 import flightForTonight from "../../assets/images/tinyflight-for-tonight.png";
 import jsQuiz from "../../assets/images/tinyjs-quiz.png";
-import budgetApp from "../../assets/images/tinybudgeting.png";
 import kitchenSink from "../../assets/images/tinykitchenSink.png";
 import NE_Projects from '../../assets/images/tinyNE.png'
+import just_the_news from '../../assets/images/justthenews.png'
 import Project from "./Project";
 
 // add an array of objects containing project names and descriptions
@@ -16,12 +16,21 @@ function Projects() {
     <div class="projContainer">
       <div class="row" id="row1">
         <Project
-          name="Northeast Projects"
+          name="Northeast Projects (in progress)"
           link="https://mloercher.github.io/northeast_projects"
           img={NE_Projects}
           alt="ne projects logo"
           git="https://github.com/mloercher/northeast_projects"
         />
+        <Project
+          name="Just the News (in progress)"
+          link="https://github.com/mloercher/just_the_news"
+          img={just_the_news}
+          alt="just the news projects logo"
+          git="https://github.com/mloercher/just_the_news"
+        />
+      </div>
+      <div class="row" id="row2">
         <Project
           name="Kitchen Sink "
           link="https://kitchen-sink.herokuapp.com/"
@@ -36,8 +45,6 @@ function Projects() {
           alt="flight for tonight projects logo"
           git="https://github.com/mloercher/flight-for-tonight"
         />
-      </div>
-      <div class="row" id="row2">
         <Project
           name="MoodRng Wellness Tracker"
           link="https://moodrngwellnessapp.herokuapp.com/"
@@ -51,13 +58,6 @@ function Projects() {
           img={jsQuiz}
           alt="javaScript quiz projects logo"
           git="https://mloercher.github.io/Js-code-quiz/"
-        />
-        <Project
-          name="PWA Bugeting App"
-          link="https://thawing-river-03812.herokuapp.com/"
-          img={budgetApp}
-          alt="budgeting app project logo"
-          git="https://github.com/mloercher/Progressive_Budgeting"
         />
       </div>
     </div>
