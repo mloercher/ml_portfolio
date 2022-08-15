@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2281ca7d.css",
-    "main.js": "/portfolio/static/js/main.db5e9551.js",
-    "static/js/787.52173d8a.chunk.js": "/portfolio/static/js/787.52173d8a.chunk.js",
-    "static/media/croppedOption1.png": "/portfolio/static/media/croppedOption1.dea29abfe3d7ab4e1368.png",
-    "static/media/tinyNE.png": "/portfolio/static/media/tinyNE.d3b84817e782c24a5efc.png",
-    "static/media/justthenews.png": "/portfolio/static/media/justthenews.4779a449fe0e238e24fd.png",
-    "static/media/tinyflight-for-tonight.png": "/portfolio/static/media/tinyflight-for-tonight.8fe0ea50aa923c8f1028.png",
-    "static/media/tinykitchenSink.png": "/portfolio/static/media/tinykitchenSink.7461db333cb471135e92.png",
-    "static/media/tinyMoodRng.png": "/portfolio/static/media/tinyMoodRng.48d8bb62efb6b4099cc5.png",
-    "static/media/MarkLoercherResume.pdf": "/portfolio/static/media/MarkLoercherResume.3094d6f69d8ccf973b58.pdf",
-    "static/media/TS-Block-Bold.ttf": "/portfolio/static/media/TS-Block-Bold.9c11f002a4c173b8fa39.ttf",
-    "static/media/tinyjs-quiz.png": "/portfolio/static/media/tinyjs-quiz.4c513111a376b633775c.png",
-    "index.html": "/portfolio/index.html",
-    "main.2281ca7d.css.map": "/portfolio/static/css/main.2281ca7d.css.map",
-    "main.db5e9551.js.map": "/portfolio/static/js/main.db5e9551.js.map",
-    "787.52173d8a.chunk.js.map": "/portfolio/static/js/787.52173d8a.chunk.js.map"
+    "main.css": "/ml_portfolio/static/css/main.34fa7041.css",
+    "main.js": "/ml_portfolio/static/js/main.ca8e4036.js",
+    "static/js/787.52173d8a.chunk.js": "/ml_portfolio/static/js/787.52173d8a.chunk.js",
+    "static/media/croppedOption1.png": "/ml_portfolio/static/media/croppedOption1.dea29abfe3d7ab4e1368.png",
+    "static/media/tinyNE.png": "/ml_portfolio/static/media/tinyNE.d3b84817e782c24a5efc.png",
+    "static/media/justthenews.png": "/ml_portfolio/static/media/justthenews.4779a449fe0e238e24fd.png",
+    "static/media/tinyflight-for-tonight.png": "/ml_portfolio/static/media/tinyflight-for-tonight.8fe0ea50aa923c8f1028.png",
+    "static/media/tinykitchenSink.png": "/ml_portfolio/static/media/tinykitchenSink.7461db333cb471135e92.png",
+    "static/media/tinyMoodRng.png": "/ml_portfolio/static/media/tinyMoodRng.48d8bb62efb6b4099cc5.png",
+    "static/media/MarkLoercherResume.pdf": "/ml_portfolio/static/media/MarkLoercherResume.3094d6f69d8ccf973b58.pdf",
+    "static/media/TS-Block-Bold.ttf": "/ml_portfolio/static/media/TS-Block-Bold.9c11f002a4c173b8fa39.ttf",
+    "static/media/tinyjs-quiz.png": "/ml_portfolio/static/media/tinyjs-quiz.4c513111a376b633775c.png",
+    "index.html": "/ml_portfolio/index.html",
+    "main.34fa7041.css.map": "/ml_portfolio/static/css/main.34fa7041.css.map",
+    "main.ca8e4036.js.map": "/ml_portfolio/static/js/main.ca8e4036.js.map",
+    "787.52173d8a.chunk.js.map": "/ml_portfolio/static/js/787.52173d8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2281ca7d.css",
-    "static/js/main.db5e9551.js"
+    "static/css/main.34fa7041.css",
+    "static/js/main.ca8e4036.js"
   ]
 }
