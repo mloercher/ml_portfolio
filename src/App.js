@@ -42,7 +42,7 @@ function App() {
         {/* Routes = Switch in react router v6 */}
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/portfolio" element={<Home />} />
+          <Route exact path="/ml_portfolio" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/contact" element={<Contact2 />} />
