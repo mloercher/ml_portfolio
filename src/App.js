@@ -4,8 +4,8 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-
 } from "react-router-dom";
+
 // import components below
 import About from "./components/About";
 import Nav from "./components/Nav";

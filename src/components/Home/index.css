@@ -48,6 +48,7 @@ width: 100vw;
 .description p{
   font-family: myFirstFont;
   font-size: 20px;
+  color: black;
 }
 
 @media only screen and (max-width: 600px) {
