@@ -16,14 +16,14 @@ function Projects() {
     <div class="projContainer">
       <div class="row" id="row1">
         <Project
-          name="Northeast Projects (in progress)"
+          name="Northeast Projects (in development)"
           link="https://mloercher.github.io/northeast_projects"
           img={NE_Projects}
           alt="ne projects logo"
           git="https://github.com/mloercher/northeast_projects"
         />
         <Project
-          name="Just the News (in progress)"
+          name="Just the News (in development)"
           link="https://github.com/mloercher/just_the_news"
           img={just_the_news}
           alt="just the news projects logo"
