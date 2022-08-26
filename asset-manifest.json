@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/ml_portfolio/static/css/main.34fa7041.css",
-    "main.js": "/ml_portfolio/static/js/main.a4a44d83.js",
+    "main.js": "/ml_portfolio/static/js/main.1d84ebf1.js",
     "static/js/787.52173d8a.chunk.js": "/ml_portfolio/static/js/787.52173d8a.chunk.js",
-    "static/media/croppedOption1.png": "/ml_portfolio/static/media/croppedOption1.dea29abfe3d7ab4e1368.png",
-    "static/media/tinyNE.png": "/ml_portfolio/static/media/tinyNE.d3b84817e782c24a5efc.png",
-    "static/media/justthenews.png": "/ml_portfolio/static/media/justthenews.4779a449fe0e238e24fd.png",
-    "static/media/tinyflight-for-tonight.png": "/ml_portfolio/static/media/tinyflight-for-tonight.8fe0ea50aa923c8f1028.png",
-    "static/media/tinykitchenSink.png": "/ml_portfolio/static/media/tinykitchenSink.7461db333cb471135e92.png",
+    "static/media/croppedOption1.png": "/ml_portfolio/static/media/croppedOption1.07a21720ceb8d6212b31.png",
+    "static/media/tinyNE.png": "/ml_portfolio/static/media/tinyNE.ccbce07aaaf4dcfabefe.png",
+    "static/media/tinyflight-for-tonight.png": "/ml_portfolio/static/media/tinyflight-for-tonight.d2e924bcfd18c4f05312.png",
+    "static/media/justthenews.png": "/ml_portfolio/static/media/justthenews.703babd9921ea8fceef9.png",
+    "static/media/tinykitchenSink.png": "/ml_portfolio/static/media/tinykitchenSink.02e421caa4e43c36f7ba.png",
     "static/media/tinyMoodRng.png": "/ml_portfolio/static/media/tinyMoodRng.48d8bb62efb6b4099cc5.png",
     "static/media/Mark_Loercher_Resume.pdf": "/ml_portfolio/static/media/Mark_Loercher_Resume.1d9a421fd8613d5ca1b9.pdf",
     "static/media/TS-Block-Bold.ttf": "/ml_portfolio/static/media/TS-Block-Bold.9c11f002a4c173b8fa39.ttf",
-    "static/media/tinyjs-quiz.png": "/ml_portfolio/static/media/tinyjs-quiz.4c513111a376b633775c.png",
+    "static/media/tinyjs-quiz.png": "/ml_portfolio/static/media/tinyjs-quiz.c717f670d724631b8c9f.png",
     "index.html": "/ml_portfolio/index.html",
     "main.34fa7041.css.map": "/ml_portfolio/static/css/main.34fa7041.css.map",
-    "main.a4a44d83.js.map": "/ml_portfolio/static/js/main.a4a44d83.js.map",
+    "main.1d84ebf1.js.map": "/ml_portfolio/static/js/main.1d84ebf1.js.map",
     "787.52173d8a.chunk.js.map": "/ml_portfolio/static/js/787.52173d8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34fa7041.css",
-    "static/js/main.a4a44d83.js"
+    "static/js/main.1d84ebf1.js"
   ]
 }
