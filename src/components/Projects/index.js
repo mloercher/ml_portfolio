@@ -1,10 +1,10 @@
 import React from "react";
 import "./index.css";
-import moodRngImg from "../../assets/images/tinyMoodRng.png";
-import flightForTonight from "../../assets/images/tinyflight-for-tonight.png";
-import jsQuiz from "../../assets/images/tinyjs-quiz.png";
-import kitchenSink from "../../assets/images/tinykitchenSink.png";
-import NE_Projects from '../../assets/images/tinyNE.png'
+import moodRngImg from "../../assets/images/newmood.png";
+import flightForTonight from "../../assets/images/newflight.png";
+import jsQuiz from "../../assets/images/newjs.png";
+import kitchenSink from "../../assets/images/newkitchen.png";
+import NE_Projects from '../../assets/images/newne.png'
 import just_the_news from '../../assets/images/justthenews.png'
 import Project from "./Project";
 

@@ -1,7 +1,8 @@
 #aboutImage {
-  height: 25rem;
-  width: 27rem;
+  height: 22rem;
+  width: 25rem;
   border-radius: 50%;
+  box-shadow: 2px;
 }
 
 .about-cont {
