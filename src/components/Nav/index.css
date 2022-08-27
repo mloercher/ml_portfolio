@@ -57,12 +57,12 @@
 }
 
 .nav-item {
-  height: 50px;
+  height: auto;
 }
 
 
 .nav-links {
-  color: black;
+  color: white;
   font-size:2rem;
   font-family: 'Zen Kurenaido', sans-serif;
   font-weight: 100;
@@ -71,6 +71,10 @@
   text-decoration: none;
   padding: 1em 2rem;
   height: 100%;
+}
+
+a.nav-links{
+  height: auto;
 }
 
 .nav-links:hover {
@@ -143,8 +147,8 @@
   }
 
   .nav-menu.active {
-    background: #EEF4D4;
-    height: 80vh;
+    background: black;
+    height: 100vh;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -159,6 +163,7 @@
     text-align: center;
     padding: 2rem;
     width: 100%;
+    height: auto;
     display: table;
   }
 
@@ -264,3 +269,12 @@ ul {
   text-decoration: none;
   font-size: large;
 } */
+
+nav a.active {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  border: solid black;
+  border-width: 2px;
+}
+

@@ -1,11 +1,12 @@
 #aboutImage {
-  height: 22rem;
-  width: 25rem;
+  height: 23rem;
+  width: 27rem;
   border-radius: 50%;
   box-shadow: 2px;
 }
 
 .about-cont {
+  padding-top: 2%;
   display: flex;
   align-items: center;
   flex-direction: column;
