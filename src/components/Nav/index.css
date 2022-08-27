@@ -62,26 +62,24 @@
 
 
 .nav-links {
-  color: white;
+  color: black;
   font-size:2rem;
   font-family: 'Zen Kurenaido', sans-serif;
   font-weight: 100;
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 1em 2rem;
-  height: 100%;
+  padding: 0rem 1rem 0rem 1rem;
+  /* height: 100%; */
 }
 
-a.nav-links{
-  height: auto;
-}
 
 .nav-links:hover {
   /* border-bottom: 1px solid #fff; */
   transition: all 0.2s ease-out;
   text-decoration: none;
   color: black;
+  /* font-family: myFirstFont; */
 }
 
 .fa-bars {
@@ -89,20 +87,18 @@ a.nav-links{
   size: 3rem;
 }
 
-/* .nav-links-mobile {
+.nav-links-mobile {
   display: none;
-} */
+  color: white;
+}
 
 .menu-icon {
   display: none;
 }
 
 .active {
-  /* border-bottom: 2px solid #fff;
-  text-decoration: none;
-  color: whitesmoke; */
-  /* border: solid black; */
   font-family: myFirstFont;
+  color: black;
 }
 
 @media screen and (max-width: 920px) {
@@ -146,6 +142,7 @@ a.nav-links{
     transition: all 0.5s ease;
   }
 
+  /* mobile menu container */
   .nav-menu.active {
     background: black;
     height: 100vh;
@@ -159,16 +156,30 @@ a.nav-links{
     align-items: center;
   }
 
-  .nav-links {
+  .nav-links.active {
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
     width: 100%;
     height: auto;
     display: table;
+    color: white;
+    border: solid white;
+  }
+  .nav-links {
+    text-align: center;
+    padding: 1.5rem;
+    width: 100%;
+    height: auto;
+    display: table;
+    color: white;
+  }
+
+  .nav a.active{
+    border: solid white;
   }
 
   .nav-links:hover {
-    background-color: #fff;
+    background-color: black;
     color: #242424;
     border-radius: 0;
   }
@@ -203,22 +214,25 @@ a.nav-links{
     width: 80%;
     text-decoration: none;
     font-size: 1.5rem;
-    background-color: transparent;
-    color: #fff;
+    /* background-color: black; */
+    color: black;
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
   }
 
   .nav-links-mobile:hover {
-    background: #fff;
-    color: #242424;
+    color: white;
     transition: 250ms;
   }
+
+
 }
 
-@media screen and (min-width: 820px) {
-}
+/* @media screen and (min-width: 820px) {
+
+  
+} */
 
 /* #navItems {
   display: flex;
@@ -238,13 +252,7 @@ nav {
   font-family: "Zen Kurenaido", sans-serif;
 }
 
-nav a.active {
-  color: black;
-  text-decoration: none;
-  font-size: 22px;
-  border: solid black;
-  border-width: 2px;
-}
+
 
 nav a.inactive {
   color: black;
@@ -271,10 +279,9 @@ ul {
 } */
 
 nav a.active {
-  color: white;
+  color: black;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 30px;
   border: solid black;
   border-width: 2px;
 }
-
