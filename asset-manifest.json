@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/ml_portfolio/static/css/main.f67d5a2f.css",
-    "main.js": "/ml_portfolio/static/js/main.ad1cf885.js",
+    "main.css": "/ml_portfolio/static/css/main.11c8bd27.css",
+    "main.js": "/ml_portfolio/static/js/main.b9bd4fe8.js",
     "static/js/787.52173d8a.chunk.js": "/ml_portfolio/static/js/787.52173d8a.chunk.js",
-    "static/media/newport.png": "/ml_portfolio/static/media/newport.77060890868b488b34eb.png",
+    "static/media/newport1.png": "/ml_portfolio/static/media/newport1.b777635ee5686e94b5f2.png",
     "static/media/newne.png": "/ml_portfolio/static/media/newne.5e294db408601b72dd91.png",
     "static/media/newflight.png": "/ml_portfolio/static/media/newflight.165a6ee2d46789a1b16e.png",
     "static/media/justthenews.png": "/ml_portfolio/static/media/justthenews.c758e18fe1c4dc339041.png",
@@ -12,12 +12,12 @@
     "static/media/TS-Block-Bold.ttf": "/ml_portfolio/static/media/TS-Block-Bold.9c11f002a4c173b8fa39.ttf",
     "static/media/newmood.png": "/ml_portfolio/static/media/newmood.f9365062e281a2edd1b7.png",
     "index.html": "/ml_portfolio/index.html",
-    "main.f67d5a2f.css.map": "/ml_portfolio/static/css/main.f67d5a2f.css.map",
-    "main.ad1cf885.js.map": "/ml_portfolio/static/js/main.ad1cf885.js.map",
+    "main.11c8bd27.css.map": "/ml_portfolio/static/css/main.11c8bd27.css.map",
+    "main.b9bd4fe8.js.map": "/ml_portfolio/static/js/main.b9bd4fe8.js.map",
     "787.52173d8a.chunk.js.map": "/ml_portfolio/static/js/787.52173d8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f67d5a2f.css",
-    "static/js/main.ad1cf885.js"
+    "static/css/main.11c8bd27.css",
+    "static/js/main.b9bd4fe8.js"
   ]
 }
