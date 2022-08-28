@@ -16,14 +16,14 @@ function Projects() {
     <div class="projContainer">
       <div class="row" id="row1">
         <Project
-          name="Northeast Projects (in development)"
+          name="NORTHEAST PROJECTS (in development)"
           link="https://mloercher.github.io/northeast_projects"
           img={NE_Projects}
           alt="ne projects logo"
           git="https://github.com/mloercher/northeast_projects"
         />
         <Project
-          name="Just the News (in development)"
+          name="JUST THE NEWS (in development)"
           link="https://github.com/mloercher/just_the_news"
           img={just_the_news}
           alt="just the news projects logo"
@@ -32,28 +32,28 @@ function Projects() {
       </div>
       <div class="row" id="row2">
         <Project
-          name="Kitchen Sink "
+          name="KITCHEN SINK "
           link="https://kitchen-sink.herokuapp.com/"
           img={kitchenSink}
           alt="kitchen sink projects logo"
           git="https://github.com/antger78/kitchen_sink"
         />
         <Project
-          name="Flight for Tonight"
+          name="FLIGHT FOR TONIGHT"
           link="https://mloercher.github.io/flight-for-tonight/"
           img={flightForTonight}
           alt="flight for tonight projects logo"
           git="https://github.com/mloercher/flight-for-tonight"
         />
         <Project
-          name="MoodRng Wellness Tracker"
+          name="MOODRNG"
           link="https://moodrngwellnessapp.herokuapp.com/"
           img={moodRngImg}
           alt="mood ring projects logo"
           git="https://moodrngwellnessapp.herokuapp.com/"
         />
         <Project
-          name="JavaScript Quiz"
+          name="JAVASCRIPT QUIZ"
           link="https://mloercher.github.io/Js-code-quiz/"
           img={jsQuiz}
           alt="javaScript quiz projects logo"
