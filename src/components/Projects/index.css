@@ -46,7 +46,7 @@
 
 @media only screen and (max-width: 600px) {
   .projContainer {
-    padding: 4% 0% 0% 2%;
+    padding:4% 2% 9% 2%;
     position: relative;
     overflow: hidden;
     padding-bottom: 9%;
