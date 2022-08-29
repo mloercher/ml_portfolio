@@ -50,6 +50,11 @@ section {
   .aboutContainer{
     padding-bottom: 2%;
   }
+
+  .links a{
+    font-size: 1.2rem;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 375px) {
