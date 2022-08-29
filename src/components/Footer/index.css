@@ -10,7 +10,7 @@
   bottom: 0;
   right: 0;
   width: 100%;
-  height: auto;
+  height: 5%;
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   display: flex;
   justify-content: center;

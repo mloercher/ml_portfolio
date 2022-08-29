@@ -1,9 +1,7 @@
 .projContainer {
   padding: 0% 5% 4% 5%;
   position: relative;
-  /* padding-bottom: 7%; */
   overflow: hidden;
-  /* height: 90vh; */
 }
 
 #projImg {
@@ -50,6 +48,17 @@
     position: relative;
     overflow: hidden;
     padding-bottom: 9%;
+  }
+
+  .col-sm{
+    margin-bottom: 1rem;
+  }
+  .col-sm p{
+    font-size: 1em;
+  }
+
+  #row2{
+    padding: 0;
   }
 
 }

@@ -38,15 +38,15 @@ section {
   .email-git {
     display: block;
     justify-content: space-between;
-    width: 80vw;
+    width: 90vw;
   }
 
   .info-main{
     padding-top: 8%;
   }
 
-  /* a {
-    font-size: 25px;
+  /* .connect-title{
+    font-size: 2rem;
   } */
 }
 
@@ -100,7 +100,7 @@ ul {
 }
 
 ul li h2 {
-  font-size: 3rem;
+  /* font-size: 3rem; */
   display: flex;
   flex-wrap: wrap;
   font-family: myFirstFont;
@@ -114,10 +114,28 @@ section a {
   color: black;
 }
 
+
+
 @media only screen and (min-width: 768px) and (max-width: 900px) {
   .email-git {
     display: flex;
     justify-content: space-between;
     width: 85vw;
   }
+
+  .connect-title h2{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .connect-title h2{
+    font-size: 1rem;
+  }
+
+  .email-git {
+    width: 100%;
+  }
+
 }
