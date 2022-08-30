@@ -37,13 +37,15 @@ section {
 
 @media only screen and (max-width: 600px) {
   #aboutImage {
-    height: 20rem;
-    width: 22rem;
+    height: 18rem;
+    width: 20rem;
     border-radius: 50%;
+    /* border: solid black; */
+    box-shadow: 5px 5px lightblue;
   }
 
   .aboutTxt {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-top: 3%;
   }
 
@@ -61,7 +63,7 @@ section {
   #aboutImage {
     height: 16rem;
     width: 18rem;
-    border-radius: 50%;
+   
   }
 
   .aboutTxt {
