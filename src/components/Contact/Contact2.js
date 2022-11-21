@@ -1,6 +1,6 @@
 
 import "./index.css";
-import resume from '../../assets/images/Mark_Loercher_Resume.pdf'
+import resume from '../../assets/images/Resume.pdf'
 
 
 function Contact() {

@@ -60,11 +60,10 @@
   height: auto;
 }
 
-
 .nav-links {
   color: black;
-  font-size:2rem;
-  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 2rem;
+  font-family: "Zen Kurenaido", sans-serif;
   font-weight: 100;
   display: flex;
   align-items: center;
@@ -72,7 +71,6 @@
   padding: 0rem 1rem 0rem 1rem;
   /* height: 100%; */
 }
-
 
 .nav-links:hover {
   /* border-bottom: 1px solid #fff; */
@@ -144,16 +142,17 @@
 
   /* mobile menu container */
   .nav-menu.active {
-    background: black;
-    height: 100vh;
-    left: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
+    background: #000;
+    height: 80vh;
+    left: 0;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
   }
 
   .nav-links.active {
@@ -174,7 +173,7 @@
     color: white;
   }
 
-  .nav a.active{
+  .nav a.active {
     border: solid white;
   }
 
@@ -225,8 +224,6 @@
     color: white;
     transition: 250ms;
   }
-
-
 }
 
 /* @media screen and (min-width: 820px) {
