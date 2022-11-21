@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ml_portfolio/static/css/main.0f872626.css",
-    "main.js": "/ml_portfolio/static/js/main.e6564ce4.js",
+    "main.css": "/ml_portfolio/static/css/main.1353eaaa.css",
+    "main.js": "/ml_portfolio/static/js/main.5eae29ad.js",
     "static/js/787.52173d8a.chunk.js": "/ml_portfolio/static/js/787.52173d8a.chunk.js",
     "static/media/newport1.png": "/ml_portfolio/static/media/newport1.b777635ee5686e94b5f2.png",
     "static/media/newne.png": "/ml_portfolio/static/media/newne.5e294db408601b72dd91.png",
     "static/media/newflight.png": "/ml_portfolio/static/media/newflight.165a6ee2d46789a1b16e.png",
     "static/media/justthenews.png": "/ml_portfolio/static/media/justthenews.c758e18fe1c4dc339041.png",
-    "static/media/Mark_Loercher_Resume.pdf": "/ml_portfolio/static/media/Mark_Loercher_Resume.1d9a421fd8613d5ca1b9.pdf",
+    "static/media/Resume.pdf": "/ml_portfolio/static/media/Resume.a93e90b0e55f0834e11e.pdf",
     "static/media/newkitchen.png": "/ml_portfolio/static/media/newkitchen.c8034c5e58d12d556972.png",
     "static/media/TS-Block-Bold.ttf": "/ml_portfolio/static/media/TS-Block-Bold.9c11f002a4c173b8fa39.ttf",
     "static/media/newmood.png": "/ml_portfolio/static/media/newmood.f9365062e281a2edd1b7.png",
     "index.html": "/ml_portfolio/index.html",
-    "main.0f872626.css.map": "/ml_portfolio/static/css/main.0f872626.css.map",
-    "main.e6564ce4.js.map": "/ml_portfolio/static/js/main.e6564ce4.js.map",
+    "main.1353eaaa.css.map": "/ml_portfolio/static/css/main.1353eaaa.css.map",
+    "main.5eae29ad.js.map": "/ml_portfolio/static/js/main.5eae29ad.js.map",
     "787.52173d8a.chunk.js.map": "/ml_portfolio/static/js/787.52173d8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f872626.css",
-    "static/js/main.e6564ce4.js"
+    "static/css/main.1353eaaa.css",
+    "static/js/main.5eae29ad.js"
   ]
 }
