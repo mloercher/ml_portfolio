@@ -11,28 +11,30 @@ width: 100vw;
 }
 
 
-.container h1 {
+.title h1 {
   overflow:scroll;
   display: flex;
   flex-wrap: wrap;
   font-family: myFirstFont;
-  font-size: 45px;
+  font-size: 6vw;
   border: solid #EEF4D4;
   border-style: dashed;
   border-width: 10px;
 }
 
-.container h1:hover{
+.title h1:hover{
   color: #EEF4D4;
   border: solid black;
   border-style: dashed;
   border-width: 10px;
 }
 
-.container {
+.title {
   display: flex;
   justify-content: center;
   padding-top: 15%;
+  width:100%;
+
 }
 
 .description{
@@ -47,8 +49,12 @@ width: 100vw;
 }
 .description p{
   font-family: myFirstFont;
-  font-size: 20px;
+  font-size: 2vw;
   color: black;
+}
+
+@media only screen and (max-width:  ) {
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -57,13 +63,10 @@ width: 100vw;
     font-size: 10px;
   }
 
-  .container{
+  .title{
     padding-top: 30%;
   }
 
-  .container h1{
-    font-size: 2.3rem;
-  }
 
 
 }

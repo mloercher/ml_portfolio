@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React } from "react";
 // React Router imports below---in V6, Switch is replaced by Routes
 import {
   BrowserRouter as Router,
@@ -17,15 +17,13 @@ import Contact2 from "./components/Contact/Contact2"
 
 //declaring name of initial states and setter functions
 function App() {
-
   
   return (
     <Router>
       <div
         className="App"
       style={{
-       
-        height: "100vh",
+        height: "100vh"
       }}
       >
         <Nav
