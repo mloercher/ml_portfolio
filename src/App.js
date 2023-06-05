@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React } from "react";
 // React Router imports below---in V6, Switch is replaced by Routes
 import {
   BrowserRouter as Router,
@@ -18,9 +18,9 @@ import Contact2 from "./components/Contact/Contact2"
 //declaring name of initial states and setter functions
 function App() {
 
-  const [backgroundColor, setBackgroundColor] = useState("#C2D897");
-  const [navColor, setNavColor] = useState("#C2D897");
-  const [footerColor, setFooterColor] = useState("#C2D897");
+  // const [backgroundColor, setBackgroundColor] = useState("#C2D897");
+  // const [navColor, setNavColor] = useState("#C2D897");
+  // const [footerColor, setFooterColor] = useState("#C2D897");
   
   return (
 
@@ -28,16 +28,16 @@ function App() {
       <div
         className="App"
       style={{
-        backgroundColor: backgroundColor,
-        navColor: navColor,
-        footerColor: footerColor,
-        height: "100vh",
+        // backgroundColor: backgroundColor,
+        // navColor: navColor,
+        // footerColor: footerColor,
+        height: "100vh"
       }}
       >
         <Nav
-        setBackgroundColor={setBackgroundColor}
-        setNavColor={setNavColor}
-        setFooterColor={setFooterColor}
+        // setBackgroundColor={setBackgroundColor}
+        // setNavColor={setNavColor}
+        // setFooterColor={setFooterColor}
         />
         {/* Routes = Switch in react router v6 */}
         <Routes>

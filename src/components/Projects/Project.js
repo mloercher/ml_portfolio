@@ -2,7 +2,7 @@ import React from 'react'
 
 function Project(props) {
     return (
-        <div class="col-sm">
+        <div class="">
             <p>{props.name}</p>
             <a
                 href={props.link}
