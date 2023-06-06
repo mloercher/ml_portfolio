@@ -2,12 +2,12 @@ import React from 'react'
 
 function Project(props) {
     return (
-        <div class="">
+        <div className="">
             <p>{props.name}</p>
             <a
                 href={props.link}
                 target="_blank"
-                without
+
                 rel="noreferrer"
             >
                 <img src={props.img} id="projImg" alt={props.alt} />
@@ -16,7 +16,7 @@ function Project(props) {
                 <a
                     href={props.link}
                     target="_blank"
-                    without
+
                     rel="noreferrer"
                 >
                     deployed app
@@ -25,7 +25,7 @@ function Project(props) {
                 <a
                     href={props.git}
                     target="_blank"
-                    without
+
                     rel="noreferrer"
                 >
                     repo

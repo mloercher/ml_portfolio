@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./index.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 function Nav(props) {
   const [click, setClick] = useState(false)
+  const [activeLink, setActiveLink] = useState("");
 
   const handleClick = () => {
     setClick(!click)
@@ -13,6 +14,8 @@ function Nav(props) {
   const closeMobileMenu = () => {
     setClick(!click)
   }
+
+  console.log(click)
 
   return (
       <nav className="navbar">
@@ -25,11 +28,8 @@ function Nav(props) {
               <NavLink
                 to="/"
                 style={{ textDecoration: "none" }}
-                activeclassname='active' className='nav-links'
+                activeClassName='active' className='nav-links'
                 onClick={() => {
-                  props.setBackgroundColor("#C2D897");
-                  props.setNavColor("#C2D897");
-                  props.setFooterColor("#C2D897");
                   closeMobileMenu();
                 }}
               >
@@ -40,11 +40,8 @@ function Nav(props) {
               <NavLink
                 to="/about"
                 style={{ textDecoration: "none" }}
-                activeclassname='active' className='nav-links'
+                activeClassName='active' className='nav-links'
                 onClick={() => {
-                  props.setBackgroundColor("#EEF4D4");
-                  props.setNavColor("#EEF4D4");
-                  props.setFooterColor("#EEF4D4");
                   closeMobileMenu();
                 }}
               >
@@ -55,11 +52,9 @@ function Nav(props) {
               <NavLink
                 to="/projects"
                 style={{ textDecoration: "none" }}
-                activeclassname='active' className='nav-links'
+                activeClassName='active' className='nav-links'
                 onClick={() => {
-                  props.setBackgroundColor("#C2D897");
-                  props.setNavColor("#C2D897");
-                  props.setFooterColor("#C2D897");
+             
                   closeMobileMenu();
                 }}
               >
@@ -70,11 +65,9 @@ function Nav(props) {
               <NavLink
                 to="/contact"
                 style={{ textDecoration: "none" }}
-                activeclassname='active' className='nav-links'
+                activeClassName='active' className='nav-links'
                 onClick={() => {
-                  props.setBackgroundColor("#EEF4D4");
-                  props.setNavColor("#EEF4D4");
-                  props.setFooterColor("#EEF4D4");
+               
                   closeMobileMenu();
                 }}
               >

@@ -6,7 +6,9 @@ function About() {
   return (
     <div className="about-cont">
       {/* <h1 id="about">Who am I?</h1> */}
-        <img src={aboutImage} id="aboutImage" alt="cover" />
+      <div className="image-cont">
+      <img src={aboutImage} id="aboutImage" alt="cover" />
+      </div>
       <div className="aboutContainer">
         <p className="aboutTxt">
           Hello! My name is Mark Loercher and I am a Musician, Producer,

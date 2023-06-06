@@ -1,16 +1,24 @@
 #aboutImage {
   height: 100%;
-  width: 27rem;
-  border-radius: 50%;
+  width: 100%;
+  border-radius: 10px;
   box-shadow: 2px;
+}
+.image-cont {
+  margin-top: 2%;
+  width: 30%;
 }
 
 .about-cont {
-  padding-top: 2%;
+  /* padding-top: 2%; */
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* height:100vh; */
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+    padding-bottom: 40%;
 }
 
 .aboutContainer {
@@ -20,8 +28,8 @@
 }
 
 .aboutTxt {
-  font-size: 26px;
-  margin-top: 1%;
+  margin-top: 50px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -35,44 +43,115 @@ section {
 }
 
 
-@media only screen and (max-width: 600px) {
-  #aboutImage {
-    height: 16rem;
-    width: 18rem;
-    border-radius: 2%;
-    /* border: solid black; */
-    box-shadow: 5px 5px lightblue;
+@media only screen and (max-width:2800px) {
+  .aboutTxt{
+    font-size: 70px;
+  }
+  .image-cont{
+    margin-top: 5rem;
+    width: 75%;
+    max-width: 50rem;
   }
 
-  .aboutTxt {
-    font-size: 1rem;
-    margin-top: 3%;
+}
+
+@media only screen and (max-width:2500px) {
+  .aboutTxt{
+    font-size: 70px;
+  }
+  .image-cont{
+    margin-top: 5rem;
+    width: 75%;
+    max-width: 50rem;
   }
 
-  .aboutContainer{
-    padding-bottom: 2%;
+}
+
+
+@media only screen and (max-width:1440px) {
+  .aboutTxt{
+    font-size: 30px;
+  }
+  .image-cont{
+    margin-top: 3rem;
+    width: 75%;
+    max-width: 25rem;
   }
 
-  .links a{
+}
+
+
+@media only screen and (max-width:1024px) {
+  .aboutTxt{
+    font-size: 30px;
+  }
+  .image-cont{
+    margin-top: 3rem;
+    width: 75%;
+    max-width: 20rem;
+  }
+
+}
+
+@media only screen and (max-width:968px) {
+  .aboutTxt{
+    font-size: 30px;
+  }
+  .image-cont{
+    margin-top: 3rem;
+    width: 75%;
+    max-width: 20rem;
+  }
+
+}
+
+
+
+@media only screen and (max-width:768px) {
+  .image-cont{
+    margin-top: 2rem;
+    width: 75%;
+    max-width: 20rem;
+  }
+ 
+  .aboutTxt{
+    font-size: 22px;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+
+  .links a {
     font-size: 1.2rem;
     align-items: center;
   }
 }
+/* 
+@media only screen and (min-width:425px)and(max-width: 600px) {
 
-@media only screen and (max-width: 375px) {
-  #aboutImage {
-    height: 16rem;
-    width: 18rem;
-   
+  .links a {
+    font-size: 1.2rem;
+    align-items: center;
   }
 
-  .aboutTxt {
-    font-size: 1.1rem;
-    margin-top: 3%;
+  .aboutTxt{
+    font-size: 18px;
   }
+} */
 
-  .aboutContainer{
-    padding-bottom: 2%;
+@media only screen and (max-width: 425px) {
+  .aboutTxt{
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 20px;
   }
 }
 
+@media only screen and (max-width: 375px) {
+
+
+  .aboutContainer{
+    width: 90%;
+    margin-bottom: 25px;
+  }
+
+}

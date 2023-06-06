@@ -10,7 +10,7 @@ function Footer() {
         <a
           href="https://www.linkedin.com/in/mark-loercher-682279180/"
           target="_blank"
-          without
+       
           rel="noreferrer"
         >
           <img className="footerImg" src={linkedInLogo} alt="linkedin logo"></img>
@@ -18,7 +18,7 @@ function Footer() {
         <a
           href="https://www.github.com/mloercher"
           target="_blank"
-          without
+          
           rel="noreferrer"
         >
           <img className="footerImg" src={gitLogo} alt="github logo"></img>
@@ -26,7 +26,7 @@ function Footer() {
         <a
           href="https://www.stackoverflow.com"
           target="_blank"
-          without
+       
           rel="noreferrer"
         >
           <img className="footerImg" src={stackLogo} alt="stack overflow logo"></img>
